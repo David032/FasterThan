@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fire
+  - Floor_Wood
+  - Floor_Metal
+  - Floor_Grass
   layers:
   - Default
   - TransparentFX
