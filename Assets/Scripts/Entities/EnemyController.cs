@@ -18,12 +18,17 @@ public class EnemyController : MonoBehaviour
     const float ResetTime = 5f;
 
     public State EnemyState = State.Idle;
+    public NavMeshData levelMesh;
 
-    public GameObject player;
-
-    public Vector3 targetPosition;
+    GameObject player;
+    Vector3 targetPosition;
     NavMeshAgent agent;
-    public bool amActive = false;
+    bool amActive = false;
+
+    float MinX;
+    float MaxX;
+    float MinZ;
+    float MaxZ;
 
     void Start()
     {
@@ -37,6 +42,15 @@ public class EnemyController : MonoBehaviour
         {
             print("Didn't find agent");
         }
+        DefineBoundries();
+    }
+
+    void DefineBoundries() 
+    {
+        MinX = levelMesh.sourceBounds.center.x - levelMesh.sourceBounds.extents.x;
+        MaxX = levelMesh.sourceBounds.center.x + levelMesh.sourceBounds.extents.x;
+        MinZ = levelMesh.sourceBounds.center.z - levelMesh.sourceBounds.extents.z;
+        MaxZ = levelMesh.sourceBounds.center.z + levelMesh.sourceBounds.extents.z;
     }
 
     void Update()
@@ -50,6 +64,7 @@ public class EnemyController : MonoBehaviour
                     amActive = false;
                     break;
                 case State.Patrolling:
+                    StartCoroutine(Patrol());
                     amActive = false;
                     break;
                 case State.Tracking:
@@ -95,7 +110,7 @@ public class EnemyController : MonoBehaviour
         rndNumber = Random.Range(offset * -1, offset);
         believedLocation.z += rndNumber;
 
-        //Debug.DrawLine(transform.position, believedLocation,Color.red);       
+        Debug.DrawLine(transform.position, believedLocation,Color.red);       
         print("Thinks it's at: " + believedLocation);
         return believedLocation;
     }
@@ -104,10 +119,17 @@ public class EnemyController : MonoBehaviour
     IEnumerator Track(Vector3 theTarget) 
     {
         print(theTarget);
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(TrackingTime);
         agent.SetDestination(theTarget);
         print("Moving to target");
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(ResetTime);
+    }
+
+    IEnumerator Patrol() 
+    {
+        Vector3 randomDestionation = new Vector3(Random.Range(MinX, MaxX) * 100, 1, Random.Range(MinZ, MaxZ) * 100);
+        agent.SetDestination(randomDestionation);
+        yield return new WaitForSeconds(ResetTime);
     }
 
     IEnumerator Hunt() 

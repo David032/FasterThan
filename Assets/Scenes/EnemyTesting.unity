@@ -618,8 +618,14 @@ PrefabInstance:
     - target: {fileID: 6235684489759294728, guid: d41c6579d4711694cb32f070023fa542,
         type: 3}
       propertyPath: EnemyState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6235684489759294728, guid: d41c6579d4711694cb32f070023fa542,
+        type: 3}
+      propertyPath: levelMesh
+      value: 
+      objectReference: {fileID: 23800000, guid: 933607cfd4742a741b733ff352badd31,
+        type: 2}
     - target: {fileID: 6998787415197457067, guid: d41c6579d4711694cb32f070023fa542,
         type: 3}
       propertyPath: m_Layer
