@@ -54,7 +54,7 @@ public class EnemyController : MonoBehaviour
                     break;
                 case State.Tracking:
                     Vector3 target = locatePlayer();
-                    Track(target);
+                    StartCoroutine(Track(target));
                     amActive = false;
                     break;
                 case State.Hunting:
@@ -70,8 +70,8 @@ public class EnemyController : MonoBehaviour
     Vector3 locatePlayer() 
     {
         Vector3 believedLocation = player.transform.position;
+        print("Actually at: " + believedLocation);
         Player_Movement playerMovement = player.GetComponent<Player_Movement>();
-        //print("Player located");
         int pSpeed = Mathf.RoundToInt(playerMovement.playerSpeed());
         int offset = 4;
 
@@ -90,17 +90,13 @@ public class EnemyController : MonoBehaviour
 
         int rndNumber = Random.Range(offset * -1, offset);
         believedLocation.x += rndNumber;
-        //print("X modified by: " + rndNumber);
         rndNumber = Random.Range(offset * -1, offset);
         believedLocation.y += rndNumber;
-        //print("Y modified by: " + rndNumber);
         rndNumber = Random.Range(offset * -1, offset);
         believedLocation.z += rndNumber;
-        //print("Z modified by: " + rndNumber);
 
-        //Debug.DrawLine(transform.position, believedLocation,Color.red);
-        
-        //print("Located at: " + Time.time);
+        //Debug.DrawLine(transform.position, believedLocation,Color.red);       
+        print("Thinks it's at: " + believedLocation);
         return believedLocation;
     }
 
