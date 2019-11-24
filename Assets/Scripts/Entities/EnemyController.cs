@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour
     const float HuntingTime = 5f;
     const float ResetTime = 5f;
 
-    public State EnemyState = State.Idle;
+    public State EnemyState = State.Patrolling;
     public NavMeshData levelMesh;
 
     [Range(1, 100)]
@@ -26,8 +26,10 @@ public class EnemyController : MonoBehaviour
     public int viewDistance = 100;
     [Range(1, 10)]
     public float HuntingSpeed = 5;
+    [Range(1, 100)]
+    public float HearingRange = 30;
 
-    public bool DebugDrawFoV = false;
+    public bool DebugView = false;
 
     public GameObject player;
     Vector3 targetPosition;
@@ -57,14 +59,28 @@ public class EnemyController : MonoBehaviour
 
     void DefineBoundries() 
     {
-        MinX = levelMesh.sourceBounds.center.x - levelMesh.sourceBounds.extents.x;
-        MaxX = levelMesh.sourceBounds.center.x + levelMesh.sourceBounds.extents.x;
-        MinZ = levelMesh.sourceBounds.center.z - levelMesh.sourceBounds.extents.z;
-        MaxZ = levelMesh.sourceBounds.center.z + levelMesh.sourceBounds.extents.z;
+        MinX = (levelMesh.sourceBounds.center.x - levelMesh.sourceBounds.extents.x)/2;
+        MaxX = (levelMesh.sourceBounds.center.x + levelMesh.sourceBounds.extents.x)/2;
+        MinZ = (levelMesh.sourceBounds.center.z - levelMesh.sourceBounds.extents.z)/2;
+        MaxZ = (levelMesh.sourceBounds.center.z + levelMesh.sourceBounds.extents.z)/2;
     }
 
     void Update()
     {
+        float distanceBetween = Vector3.Distance(transform.position, player.transform.position);
+
+        if (distanceBetween < HearingRange)
+        {
+            print("DEBUG: IN TRACKING STATE");
+            Debug.DrawLine(transform.position, player.transform.position, Color.green);
+            EnemyState = State.Tracking;
+        }
+        else
+        {
+            print("DEBUG: IN PATROL STATE");
+            EnemyState = State.Patrolling;
+        }
+
         if (!amActive)
         {
             amActive = true;
@@ -96,7 +112,6 @@ public class EnemyController : MonoBehaviour
     Vector3 locatePlayer() 
     {
         Vector3 believedLocation = player.transform.position;
-        print("Actually at: " + believedLocation);
         Player_Movement playerMovement = player.GetComponent<Player_Movement>();
         int pSpeed = Mathf.RoundToInt(playerMovement.playerSpeed());
         int offset = 4;
@@ -121,8 +136,7 @@ public class EnemyController : MonoBehaviour
         rndNumber = Random.Range(offset * -1, offset);
         believedLocation.z += rndNumber;
 
-        Debug.DrawLine(transform.position, believedLocation,Color.red);       
-        print("Thinks it's at: " + believedLocation);
+        Debug.DrawLine(transform.position, believedLocation,Color.blue);       
         return believedLocation;
     }
 
@@ -132,7 +146,6 @@ public class EnemyController : MonoBehaviour
         print(theTarget);
         yield return new WaitForSeconds(TrackingTime);
         agent.SetDestination(theTarget);
-        print("Moving to target");
         yield return new WaitForSeconds(ResetTime);
     }
 
@@ -159,8 +172,6 @@ public class EnemyController : MonoBehaviour
                     //Check the aspect
                     if (viewedEntity.tag == "Player")
                     {                        
-                        print("Player Detected");
-
                         float step = HuntingSpeed * Time.deltaTime;
                         transform.position = Vector3.MoveTowards(transform.position, viewedEntity.transform.position, step);
                         transform.LookAt(viewedEntity.transform);
@@ -168,12 +179,12 @@ public class EnemyController : MonoBehaviour
                 }
             }
         }
-        yield return new WaitForSeconds(ResetTime);
+        yield return new WaitForSeconds(ResetTime/10);
     }
 
     void OnDrawGizmos()
     {
-        if (DebugDrawFoV)
+        if (DebugView)
         {
             if (player.transform == null)
             {
@@ -190,6 +201,8 @@ public class EnemyController : MonoBehaviour
             Debug.DrawLine(transform.position, leftRayPoint, Color.green);
             Debug.DrawLine(transform.position, rightRayPoint, Color.green);
         }
+
+        
     }
 }
 
