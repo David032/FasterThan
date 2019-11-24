@@ -649,11 +649,16 @@ PrefabInstance:
     - target: {fileID: 8476455083565484097, guid: d41c6579d4711694cb32f070023fa542,
         type: 3}
       propertyPath: EnemyState
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8476455083565484097, guid: d41c6579d4711694cb32f070023fa542,
         type: 3}
       propertyPath: DebugDrawFoV
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476455083565484097, guid: d41c6579d4711694cb32f070023fa542,
+        type: 3}
+      propertyPath: DebugView
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -743,12 +748,12 @@ PrefabInstance:
     - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.97
+      value: 32.58
       objectReference: {fileID: 0}
     - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.45
+      value: 1.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63733cc313187484e901335cbab88642, type: 3}

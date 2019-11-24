@@ -13,17 +13,17 @@ public enum State
 
 public class EnemyController : MonoBehaviour
 {
-    const float TrackingTime = 5f;
-    const float HuntingTime = 5f;
-    const float ResetTime = 5f;
+    const float TrackingTime = 1f;
+    const float HuntingTime = 1f;
+    const float ResetTime = 1f;
 
     public State EnemyState = State.Patrolling;
     public NavMeshData levelMesh;
 
     [Range(1, 100)]
     public int FieldOfView = 45;
-    [Range(1, 200)]
-    public int viewDistance = 100;
+    [Range(1, 100)]
+    public int viewDistance = 15;
     [Range(1, 10)]
     public float HuntingSpeed = 5;
     [Range(1, 100)]
@@ -69,15 +69,16 @@ public class EnemyController : MonoBehaviour
     {
         float distanceBetween = Vector3.Distance(transform.position, player.transform.position);
 
-        if (distanceBetween < HearingRange)
+        if (distanceBetween < HearingRange && distanceBetween > viewDistance)
         {
-            print("DEBUG: IN TRACKING STATE");
-            Debug.DrawLine(transform.position, player.transform.position, Color.green);
             EnemyState = State.Tracking;
+        }
+        if (distanceBetween < viewDistance)
+        {
+            EnemyState = State.Hunting;
         }
         else
         {
-            print("DEBUG: IN PATROL STATE");
             EnemyState = State.Patrolling;
         }
 
@@ -90,15 +91,18 @@ public class EnemyController : MonoBehaviour
                     amActive = false;
                     break;
                 case State.Patrolling:
+                    print("DEBUG: IN PATROL STATE");
                     StartCoroutine(Patrol());
                     amActive = false;
                     break;
                 case State.Tracking:
+                    print("DEBUG: IN TRACKING STATE");
                     Vector3 target = locatePlayer();
                     StartCoroutine(Track(target));
                     amActive = false;
                     break;
                 case State.Hunting:
+                    print("DEBUG: IN HUNT STATE");
                     StartCoroutine(Hunt());
                     amActive = false;
                     break;
@@ -143,7 +147,6 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator Track(Vector3 theTarget) 
     {
-        print(theTarget);
         yield return new WaitForSeconds(TrackingTime);
         agent.SetDestination(theTarget);
         yield return new WaitForSeconds(ResetTime);
@@ -158,18 +161,17 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator Hunt() 
     {
+        agent.SetDestination(transform.position);
         RaycastHit hit;
         rayDirection = player.transform.position - transform.position;
 
         if ((Vector3.Angle(rayDirection, transform.forward)) < FieldOfView)
         {
-            // Detect if player is within the field of view
             if (Physics.Raycast(transform.position, rayDirection, out hit, viewDistance))
             {
                 GameObject viewedEntity = hit.collider.gameObject;
                 if (viewedEntity != null)
                 {
-                    //Check the aspect
                     if (viewedEntity.tag == "Player")
                     {                        
                         float step = HuntingSpeed * Time.deltaTime;
