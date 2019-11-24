@@ -20,7 +20,16 @@ public class EnemyController : MonoBehaviour
     public State EnemyState = State.Idle;
     public NavMeshData levelMesh;
 
-    GameObject player;
+    [Range(1, 100)]
+    public int FieldOfView = 45;
+    [Range(1, 200)]
+    public int viewDistance = 100;
+    [Range(1, 10)]
+    public float HuntingSpeed = 5;
+
+    public bool DebugDrawFoV = false;
+
+    public GameObject player;
     Vector3 targetPosition;
     NavMeshAgent agent;
     bool amActive = false;
@@ -30,9 +39,10 @@ public class EnemyController : MonoBehaviour
     float MinZ;
     float MaxZ;
 
+    Vector3 rayDirection;
+
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
         agent = GetComponent<NavMeshAgent>();
         if (player == null)
         {
@@ -73,6 +83,7 @@ public class EnemyController : MonoBehaviour
                     amActive = false;
                     break;
                 case State.Hunting:
+                    StartCoroutine(Hunt());
                     amActive = false;
                     break;
                 default:
@@ -134,12 +145,51 @@ public class EnemyController : MonoBehaviour
 
     IEnumerator Hunt() 
     {
-        //This should be fired whenever the player makes a sound above a certain volume.
-        targetPosition = player.transform.position;
-        yield return new WaitForSeconds(HuntingTime);
-        print("Am moving towards " +targetPosition);
-        agent.SetDestination(targetPosition);
+        RaycastHit hit;
+        rayDirection = player.transform.position - transform.position;
+
+        if ((Vector3.Angle(rayDirection, transform.forward)) < FieldOfView)
+        {
+            // Detect if player is within the field of view
+            if (Physics.Raycast(transform.position, rayDirection, out hit, viewDistance))
+            {
+                GameObject viewedEntity = hit.collider.gameObject;
+                if (viewedEntity != null)
+                {
+                    //Check the aspect
+                    if (viewedEntity.tag == "Player")
+                    {                        
+                        print("Player Detected");
+
+                        float step = HuntingSpeed * Time.deltaTime;
+                        transform.position = Vector3.MoveTowards(transform.position, viewedEntity.transform.position, step);
+                        transform.LookAt(viewedEntity.transform);
+                    }
+                }
+            }
+        }
         yield return new WaitForSeconds(ResetTime);
-        amActive = false;
+    }
+
+    void OnDrawGizmos()
+    {
+        if (DebugDrawFoV)
+        {
+            if (player.transform == null)
+            {
+                return;
+            }
+            Debug.DrawLine(transform.position, player.transform.position, Color.red);
+            Vector3 frontRayPoint = transform.position + (transform.forward * viewDistance);
+            //Approximate perspective visualization
+            Vector3 leftRayPoint = frontRayPoint;
+            leftRayPoint.x += FieldOfView;// * 0.5f;
+            Vector3 rightRayPoint = frontRayPoint;
+            rightRayPoint.x -= FieldOfView;// * 0.5f;
+            Debug.DrawLine(transform.position, frontRayPoint, Color.green);
+            Debug.DrawLine(transform.position, leftRayPoint, Color.green);
+            Debug.DrawLine(transform.position, rightRayPoint, Color.green);
+        }
     }
 }
+
