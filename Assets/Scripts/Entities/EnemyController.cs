@@ -15,7 +15,7 @@ public class EnemyController : MonoBehaviour
 {
     const float TrackingTime = 1f;
     const float HuntingTime = 1f;
-    const float ResetTime = 1f;
+    const float ResetTime = 3f;
 
     public State EnemyState = State.Patrolling;
     public NavMeshData levelMesh;
@@ -26,6 +26,8 @@ public class EnemyController : MonoBehaviour
     public int viewDistance = 15;
     [Range(1, 10)]
     public float HuntingSpeed = 5;
+    [Range(1, 10)]
+    public float BaseSpeed = 5;
     [Range(1, 100)]
     public float HearingRange = 30;
 
@@ -34,7 +36,9 @@ public class EnemyController : MonoBehaviour
     public GameObject player;
     Vector3 targetPosition;
     NavMeshAgent agent;
-    bool amActive = false;
+    bool amTracking = false;
+    bool amHunting = false;
+    bool amPatrolling = false;
 
     float MinX;
     float MaxX;
@@ -59,21 +63,21 @@ public class EnemyController : MonoBehaviour
 
     void DefineBoundries() 
     {
-        MinX = (levelMesh.sourceBounds.center.x - levelMesh.sourceBounds.extents.x)/2;
-        MaxX = (levelMesh.sourceBounds.center.x + levelMesh.sourceBounds.extents.x)/2;
-        MinZ = (levelMesh.sourceBounds.center.z - levelMesh.sourceBounds.extents.z)/2;
-        MaxZ = (levelMesh.sourceBounds.center.z + levelMesh.sourceBounds.extents.z)/2;
+        MinX = levelMesh.sourceBounds.min.x * 0.6f;
+        MaxX = levelMesh.sourceBounds.max.x * 0.6f;
+        MinZ = levelMesh.sourceBounds.min.z * 0.6f;
+        MaxZ = levelMesh.sourceBounds.max.z * 0.6f;
     }
 
     void Update()
     {
-        float distanceBetween = Vector3.Distance(transform.position, player.transform.position);
+        distanceBetween = GetPathLength(agent.path);
 
         if (distanceBetween < HearingRange && distanceBetween > viewDistance)
         {
             EnemyState = State.Tracking;
         }
-        if (distanceBetween < viewDistance)
+        else if (distanceBetween < viewDistance)
         {
             EnemyState = State.Hunting;
         }
@@ -82,33 +86,33 @@ public class EnemyController : MonoBehaviour
             EnemyState = State.Patrolling;
         }
 
-        if (!amActive)
+        switch (EnemyState)
         {
-            amActive = true;
-            switch (EnemyState)
-            {               
-                case State.Idle:
-                    amActive = false;
-                    break;
-                case State.Patrolling:
+            case State.Idle:
+                break;
+            case State.Patrolling:
+                if (!amPatrolling)
+                {
                     print("DEBUG: IN PATROL STATE");
                     StartCoroutine(Patrol());
-                    amActive = false;
-                    break;
-                case State.Tracking:
+                }
+                break;
+            case State.Tracking:
+                if (!amTracking)
+                {
                     print("DEBUG: IN TRACKING STATE");
-                    Vector3 target = locatePlayer();
-                    StartCoroutine(Track(target));
-                    amActive = false;
-                    break;
-                case State.Hunting:
+                    StartCoroutine(Track());
+                }
+                break;
+            case State.Hunting:
+                if (!amHunting)
+                {
                     print("DEBUG: IN HUNT STATE");
                     StartCoroutine(Hunt());
-                    amActive = false;
-                    break;
-                default:
-                    break;
-            }
+                }
+                break;
+            default:
+                break;
         }
 
     }
@@ -118,20 +122,7 @@ public class EnemyController : MonoBehaviour
         Vector3 believedLocation = player.transform.position;
         Player_Movement playerMovement = player.GetComponent<Player_Movement>();
         int pSpeed = Mathf.RoundToInt(playerMovement.playerSpeed());
-        int offset = 4;
-
-        if (pSpeed == playerMovement.playerSneakSpeed)
-        {
-            offset = 10;
-        }
-        else if (pSpeed == playerMovement.playerWalkSpeed)
-        {
-            offset = 5;
-        }
-        else if (pSpeed == playerMovement.playerRunSpeed)
-        {
-            offset = 1;
-        }
+        int offset = Mathf.RoundToInt(playerMovement.playerRunSpeed) + Mathf.RoundToInt(playerMovement.playerSneakSpeed) - pSpeed;
 
         int rndNumber = Random.Range(offset * -1, offset);
         believedLocation.x += rndNumber;
@@ -145,43 +136,33 @@ public class EnemyController : MonoBehaviour
     }
 
 
-    IEnumerator Track(Vector3 theTarget) 
+    IEnumerator Track() 
     {
-        yield return new WaitForSeconds(TrackingTime);
+        amTracking = true;
+        Vector3 theTarget = locatePlayer();
         agent.SetDestination(theTarget);
-        yield return new WaitForSeconds(ResetTime);
+        yield return new WaitForSeconds(ResetTime/3);
+        amTracking = false;
     }
 
     IEnumerator Patrol() 
     {
-        Vector3 randomDestionation = new Vector3(Random.Range(MinX, MaxX) * 100, 1, Random.Range(MinZ, MaxZ) * 100);
+        amPatrolling = true;
+        Vector3 randomDestionation = new Vector3(Random.Range(MinX, MaxX), 1, Random.Range(MinZ, MaxZ));
+
         agent.SetDestination(randomDestionation);
         yield return new WaitForSeconds(ResetTime);
+        amPatrolling = false;
     }
 
     IEnumerator Hunt() 
     {
-        agent.SetDestination(transform.position);
-        RaycastHit hit;
-        rayDirection = player.transform.position - transform.position;
-
-        if ((Vector3.Angle(rayDirection, transform.forward)) < FieldOfView)
-        {
-            if (Physics.Raycast(transform.position, rayDirection, out hit, viewDistance))
-            {
-                GameObject viewedEntity = hit.collider.gameObject;
-                if (viewedEntity != null)
-                {
-                    if (viewedEntity.tag == "Player")
-                    {                        
-                        float step = HuntingSpeed * Time.deltaTime;
-                        transform.position = Vector3.MoveTowards(transform.position, viewedEntity.transform.position, step);
-                        transform.LookAt(viewedEntity.transform);
-                    }
-                }
-            }
-        }
+        amHunting = true;
+        agent.SetDestination(player.transform.position);
+        agent.speed = HuntingSpeed;
         yield return new WaitForSeconds(ResetTime/10);
+        amHunting = false;
+        agent.speed = BaseSpeed;
     }
 
     void OnDrawGizmos()
@@ -203,8 +184,30 @@ public class EnemyController : MonoBehaviour
             Debug.DrawLine(transform.position, leftRayPoint, Color.green);
             Debug.DrawLine(transform.position, rightRayPoint, Color.green);
         }
+    }
 
-        
+
+    //gets distance to player via the navmesh
+    float GetPathLength(NavMeshPath path)
+    {
+        path.ClearCorners();
+        float lng = 0.0f;
+
+        NavMesh.CalculatePath(transform.position, player.transform.position, 0, path);
+
+        if ((path.status != NavMeshPathStatus.PathInvalid) && (path.corners.Length > 1))
+        {
+            for (int i = 1; i < path.corners.Length; ++i)
+            {
+                lng += Vector3.Distance(path.corners[i - 1], path.corners[i]);
+            }
+        }
+        else
+        {
+            lng = Vector3.Distance(transform.position, player.transform.position);
+        }
+
+        return lng;
     }
 }
 

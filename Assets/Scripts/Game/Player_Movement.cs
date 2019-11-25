@@ -84,6 +84,6 @@ public class Player_Movement : MonoBehaviour
 
     public float playerSpeed() 
     {
-        return playerMaxSpeed;
+        return playerBody.velocity.magnitude;
     }
 }
