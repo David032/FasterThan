@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7928023218617071277}
   - component: {fileID: 8324623609873490971}
   m_Layer: 0
-  m_Name: Tile_Floor_Metal
+  m_Name: Tile_Floor_Wood
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
