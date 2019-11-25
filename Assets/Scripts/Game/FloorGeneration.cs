@@ -30,12 +30,12 @@ public class FloorGeneration : MonoBehaviour
             flooring = Instantiate(floorWood, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity, transform);
             flooring.transform.localScale = new Vector3(0.1f * tileX, 0.1f, 0.1f * tileZ);
         }
-        else if (floorType == Constants.FloorType.Wood)
+        else if (floorType == Constants.FloorType.Metal)
         {
             flooring = Instantiate(floorMetal, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity, transform);
             flooring.transform.localScale = new Vector3(0.1f * tileX, 0.1f, 0.1f * tileZ);
         }
-        else if (floorType == Constants.FloorType.Wood)
+        else if (floorType == Constants.FloorType.Grass)
         {
             flooring = Instantiate(floorGrass, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity, transform);
             flooring.transform.localScale = new Vector3(0.1f * tileX, 0.1f, 0.1f * tileZ);

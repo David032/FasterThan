@@ -8,6 +8,7 @@ TagManager:
   - Floor_Wood
   - Floor_Metal
   - Floor_Grass
+  - Floor_Stone
   layers:
   - Default
   - TransparentFX
