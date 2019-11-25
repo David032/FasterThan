@@ -12,6 +12,9 @@ public class Player_Movement : MonoBehaviour
     float movementTypeTransitionSpeed = 1;
     float playerMaxSpeed;
     Rigidbody playerBody;
+    public bool canMove = true;
+    bool rotate = true;
+    public GameObject enemy;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +25,20 @@ public class Player_Movement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        if(canMove)
+        {
+            Movement();
+        }
+        else if(!canMove && rotate)
+        {
+            DeadCutScene();
+        };
+        
+
+    }
+
+    void Movement()
     {
 
         //sets max speed for different movement types
@@ -79,6 +96,26 @@ public class Player_Movement : MonoBehaviour
         {
             string serface = hitInfo.transform.tag;
         }
+    }
+
+    void DeadCutScene()
+    {
+        Vector3 currentRotation = playerBody.rotation.eulerAngles;
+        Quaternion rot = Quaternion.LookRotation(enemy.transform.position - playerBody.transform.position);
+        playerBody.rotation = Quaternion.Slerp(transform.rotation, rot, Time.deltaTime * 8);
+        //rotate = true;
+        //if (rotate == true)
+        //{
+        //    playerBody.transform.rotation = Quaternion.Slerp(playerBody.transform.rotation, newRot, 0.2f);
+        //    Debug.Log("rotating");
+        //}
+
+        //if (currentRotation.y == newRot.y)
+        //{
+        //    rotate = false;
+        //    Debug.Log("Stop");
+        //}
+
 
     }
 }
