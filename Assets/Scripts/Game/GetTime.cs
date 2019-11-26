@@ -33,5 +33,7 @@ public class GetTime : MonoBehaviour
         }
 
         timer_text.text = str_min + ":" + str_sec;
+
+        manager.GetComponent<GameController>().GameTime = game_time;
     }
 }

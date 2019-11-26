@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public float FeatureTime = 20; //How long between feature generations?
-    public float GameTime = 60; //time the game lasts for
+    public float GameTime; //time the game lasts for
     public float totalScore;
+    float timeScore;
 
     bool generating;
 
@@ -23,9 +23,7 @@ public class GameController : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 1 && !generating)
         {
-            StartCoroutine(EventTimer());
             StartCoroutine(GameTimer());
-            MuteSceen();
             generating = true;
             playerName = "";
         }
@@ -34,13 +32,9 @@ public class GameController : MonoBehaviour
             generating = false;
         }
 
-    }
+        totalScore = GameTime;
+        Debug.Log(totalScore); //Delete at a later date!
 
-    IEnumerator EventTimer() 
-    {
-        if (!generating) { StopCoroutine(EventTimer()); }
-        yield return new WaitForSeconds(FeatureTime);
-        StartCoroutine(EventTimer());
     }
 
     IEnumerator GameTimer()
@@ -52,21 +46,6 @@ public class GameController : MonoBehaviour
     public bool IsMuted()
     {
         return muted;
-    }
-
-    public void SetMuted(bool mute)
-    {
-        muted = mute;
-        MuteSceen();
-    }
-
-    void MuteSceen()
-    {
-        var audioSources = FindObjectsOfType<AudioSource>();
-        foreach (var item in audioSources)
-        {
-            item.mute = muted;
-        }
     }
 
     public string GetPlayerName()
