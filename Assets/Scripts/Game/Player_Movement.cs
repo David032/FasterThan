@@ -118,4 +118,9 @@ public class Player_Movement : MonoBehaviour
 
 
     }
+
+    public float playerSpeed() 
+    {
+        return playerBody.velocity.magnitude;
+    }
 }
