@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public float FeatureTime = 20; //How long between feature generations?
-    public float GameTime = 135; //time the game lasts for
+    public float GameTime = 60; //time the game lasts for
     public float totalScore;
 
     bool generating;
