@@ -18,6 +18,7 @@ public class WallGeneration : MonoBehaviour
     public int tileZ = 1;
 
     public bool autoUpdate;
+    public bool wallEnabled;
 
     public GameObject Wall;
 
@@ -55,4 +56,16 @@ public class WallGeneration : MonoBehaviour
             DestroyImmediate(child[i].gameObject);
         }
     }
+
+    public void SetWallActive(bool active)
+    {
+        wallEnabled = active;
+
+        if (!wallEnabled)
+        {
+            ClearChild();
+        }
+    }
+
+
 }
