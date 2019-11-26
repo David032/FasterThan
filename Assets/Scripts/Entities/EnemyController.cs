@@ -71,7 +71,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        distanceBetween = GetPathLength(agent.path);
+        float distanceBetween = GetPathLength(agent.path);
 
         if (distanceBetween < HearingRange && distanceBetween > viewDistance)
         {
