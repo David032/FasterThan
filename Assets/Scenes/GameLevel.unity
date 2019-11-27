@@ -119,90 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
---- !u!1 &15256237
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 15256240}
-  - component: {fileID: 15256239}
-  - component: {fileID: 15256238}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &15256238
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15256237}
-  m_Enabled: 1
---- !u!20 &15256239
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15256237}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &15256240
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 15256237}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.45, y: 2.03, z: -2.89}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 9a39b9042fe902f469a47c573128cb46, type: 2}
 --- !u!1 &20048093
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +137,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &20048094
 Transform:
@@ -529,8 +446,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &57740916
 Transform:
@@ -731,8 +648,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &65446199
 Transform:
@@ -909,7 +826,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &79714932
 Transform:
@@ -1000,8 +917,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &90520269
 Transform:
@@ -1092,8 +1009,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &90875368
 Transform:
@@ -1184,8 +1101,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &91585215
 Transform:
@@ -1276,8 +1193,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &104016877
 Transform:
@@ -1368,8 +1285,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &112667516
 Transform:
@@ -1516,8 +1433,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &120290465
 Transform:
@@ -1640,8 +1557,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &131227817
 Transform:
@@ -1786,7 +1703,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &143913491
 Transform:
@@ -1962,8 +1879,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &162464342
 Transform:
@@ -2055,7 +1972,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &167560023
 Transform:
@@ -2147,7 +2064,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &171332396
 Transform:
@@ -2323,8 +2240,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &196810850
 Transform:
@@ -2471,8 +2388,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &199189770
 Transform:
@@ -2754,8 +2671,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &208255198
 Transform:
@@ -2846,8 +2763,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &213650710
 Transform:
@@ -2939,7 +2856,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &217715389
 Transform:
@@ -3031,7 +2948,7 @@ GameObject:
   m_TagString: Floor_Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &218470631
 Transform:
@@ -3178,8 +3095,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &224223356
 Transform:
@@ -3270,8 +3187,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &228991855
 Transform:
@@ -3362,8 +3279,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &242711175
 Transform:
@@ -3507,8 +3424,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &243280366
 Transform:
@@ -3599,8 +3516,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &246102052
 Transform:
@@ -3744,8 +3661,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &249910826
 Transform:
@@ -3836,8 +3753,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &253049755
 Transform:
@@ -3928,8 +3845,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &253502802
 Transform:
@@ -4020,8 +3937,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &254738681
 Transform:
@@ -4205,8 +4122,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &258194612
 Transform:
@@ -4354,7 +4271,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &264426921
 Transform:
@@ -4587,7 +4504,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &278260384
 Transform:
@@ -4763,8 +4680,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &291859779
 Transform:
@@ -4910,7 +4827,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &296135202
 Transform:
@@ -5001,8 +4918,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &317054894
 Transform:
@@ -5203,7 +5120,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &330303919
 Transform:
@@ -5348,8 +5265,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &330826857
 Transform:
@@ -5496,8 +5413,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &338898407
 Transform:
@@ -5619,8 +5536,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &344398401
 Transform:
@@ -5742,8 +5659,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &347730576
 Transform:
@@ -5891,7 +5808,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &354831781
 Transform:
@@ -5982,8 +5899,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &358349217
 Transform:
@@ -6128,8 +6045,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &364117265
 Transform:
@@ -6468,8 +6385,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &414792213
 Transform:
@@ -6617,7 +6534,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &423125539
 Transform:
@@ -6708,8 +6625,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &423280940
 Transform:
@@ -6887,8 +6804,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &445314976
 Transform:
@@ -7014,7 +6931,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &453379618
 Transform:
@@ -7105,8 +7022,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &455444693
 Transform:
@@ -7315,7 +7232,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &466917295
 Transform:
@@ -7406,8 +7323,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &470393867
 Transform:
@@ -7499,7 +7416,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &474446446
 Transform:
@@ -7700,8 +7617,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &488107536
 Transform:
@@ -7849,7 +7766,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &500369192
 Transform:
@@ -8152,7 +8069,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &526014779
 Transform:
@@ -8259,6 +8176,12 @@ Transform:
   m_Father: {fileID: 506043727}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &536268723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6265350984627547983, guid: 63733cc313187484e901335cbab88642,
+    type: 3}
+  m_PrefabInstance: {fileID: 934165286}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &539308988
 GameObject:
   m_ObjectHideFlags: 0
@@ -8329,7 +8252,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &552980176
 Transform:
@@ -8421,7 +8344,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &553019439
 Transform:
@@ -8512,8 +8435,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &555790711
 Transform:
@@ -8942,8 +8865,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &592973902
 Transform:
@@ -9090,8 +9013,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &609851709
 Transform:
@@ -9323,8 +9246,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &629791011
 Transform:
@@ -9416,7 +9339,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &634032402
 Transform:
@@ -9508,7 +9431,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &634125125
 Transform:
@@ -9652,8 +9575,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &638142193
 Transform:
@@ -9850,8 +9773,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &647637954
 Transform:
@@ -9942,8 +9865,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &656733708
 Transform:
@@ -10090,8 +10013,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &663724134
 Transform:
@@ -10294,8 +10217,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &690547176
 Transform:
@@ -10495,8 +10418,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &715637841
 Transform:
@@ -10641,7 +10564,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &719638191
 Transform:
@@ -10875,7 +10798,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &732433259
 Transform:
@@ -11076,7 +10999,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &737839926
 Transform:
@@ -11210,8 +11133,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &743247358
 Transform:
@@ -11302,8 +11225,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &745281191
 Transform:
@@ -11451,7 +11374,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &754611795
 Transform:
@@ -11543,7 +11466,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &760266822
 Transform:
@@ -11634,8 +11557,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &766130422
 Transform:
@@ -12029,8 +11952,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &800043225
 Transform:
@@ -12175,7 +12098,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &806766452
 Transform:
@@ -12267,7 +12190,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &811557914
 Transform:
@@ -12358,8 +12281,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &812149616
 Transform:
@@ -12616,7 +12539,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &824176871
 Transform:
@@ -12819,8 +12742,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &831630735
 Transform:
@@ -12911,8 +12834,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &834422797
 Transform:
@@ -13003,8 +12926,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &843708998
 Transform:
@@ -13338,8 +13261,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &875254471
 Transform:
@@ -13602,8 +13525,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &880945648
 Transform:
@@ -13806,8 +13729,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &898737578
 Transform:
@@ -13938,6 +13861,137 @@ MonoBehaviour:
     type: 3}
   floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
     type: 3}
+--- !u!1001 &911824949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3640132525389190517, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190517, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -41.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.94597554
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.32423797
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 142.16101
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640132525389190512, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607099869817470110, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_Speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 536268723}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: levelMesh
+      value: 
+      objectReference: {fileID: 23800000, guid: 9a39b9042fe902f469a47c573128cb46,
+        type: 2}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: EnemyState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: HuntingSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: viewDistance
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: HearingRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: DebugView
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: FieldOfView
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2171944261911203545, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: BaseSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5299996221476016434, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8b5569440bdf9cb48b1c25b6aa6af809, type: 3}
 --- !u!1 &912466616
 GameObject:
   m_ObjectHideFlags: 0
@@ -13954,8 +14008,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &912466617
 Transform:
@@ -14046,8 +14100,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &914473215
 Transform:
@@ -14122,6 +14176,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914473214}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &934165286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6265350984627547983, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547983, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547825, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6265350984627547981, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: enemy
+      value: 
+      objectReference: {fileID: 1112081081}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63733cc313187484e901335cbab88642, type: 3}
 --- !u!1 &939504742
 GameObject:
   m_ObjectHideFlags: 0
@@ -14138,8 +14272,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &939504743
 Transform:
@@ -14230,8 +14364,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &957124166
 Transform:
@@ -14323,7 +14457,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &961139764
 Transform:
@@ -14752,8 +14886,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &997329336
 Transform:
@@ -14876,8 +15010,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1002953305
 Transform:
@@ -14968,8 +15102,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1004496153
 Transform:
@@ -15251,8 +15385,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1027671585
 Transform:
@@ -15485,7 +15619,7 @@ GameObject:
   m_TagString: Floor_Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1040748228
 Transform:
@@ -15576,8 +15710,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1049291061
 Transform:
@@ -15669,7 +15803,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1052248852
 Transform:
@@ -15847,8 +15981,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1064348068
 Transform:
@@ -15940,7 +16074,7 @@ GameObject:
   m_TagString: Floor_Stone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1065096821
 Transform:
@@ -16032,7 +16166,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1065485933
 Transform:
@@ -16124,7 +16258,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1066478176
 Transform:
@@ -16216,7 +16350,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1075932123
 Transform:
@@ -16429,8 +16563,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1084880982
 Transform:
@@ -16612,7 +16746,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1093496240
 Transform:
@@ -16757,8 +16891,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1097339307
 Transform:
@@ -16942,6 +17076,12 @@ MonoBehaviour:
     type: 3}
   floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
     type: 3}
+--- !u!1 &1112081081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3640132525389190517, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
+    type: 3}
+  m_PrefabInstance: {fileID: 911824949}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1116197826
 GameObject:
   m_ObjectHideFlags: 0
@@ -17046,8 +17186,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1132339204
 Transform:
@@ -17191,8 +17331,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1147417741
 Transform:
@@ -17284,7 +17424,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1150791197
 Transform:
@@ -17519,8 +17659,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1174029957
 Transform:
@@ -17666,8 +17806,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1178610460
 Transform:
@@ -17758,8 +17898,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1185408981
 Transform:
@@ -17850,8 +17990,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1186561159
 Transform:
@@ -18299,8 +18439,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1260360635
 Transform:
@@ -18423,8 +18563,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1276990548
 Transform:
@@ -18655,7 +18795,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1291076011
 Transform:
@@ -18747,7 +18887,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1291600131
 Transform:
@@ -18839,7 +18979,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1326849311
 Transform:
@@ -19019,7 +19159,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1346631166
 Transform:
@@ -19142,8 +19282,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1369605901
 Transform:
@@ -19290,8 +19430,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1374197092
 Transform:
@@ -19382,8 +19522,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1374960990
 Transform:
@@ -19474,8 +19614,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1375084942
 Transform:
@@ -19622,8 +19762,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1393850691
 Transform:
@@ -19806,7 +19946,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1406748477
 Transform:
@@ -19929,8 +20069,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1409780860
 Transform:
@@ -20021,8 +20161,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1410926694
 Transform:
@@ -20113,8 +20253,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1411334788
 Transform:
@@ -20206,7 +20346,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1412331565
 Transform:
@@ -20558,8 +20698,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1429403537
 Transform:
@@ -20789,8 +20929,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1446113168
 Transform:
@@ -21075,8 +21215,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1468940569
 Transform:
@@ -21221,7 +21361,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1472894959
 Transform:
@@ -21433,13 +21573,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476876567}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1493876933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21599,8 +21739,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1495595392
 Transform:
@@ -21744,8 +21884,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1508508305
 Transform:
@@ -21890,8 +22030,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1518044129
 Transform:
@@ -21983,7 +22123,7 @@ GameObject:
   m_TagString: Floor_Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1544859892
 Transform:
@@ -22074,8 +22214,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1545157215
 Transform:
@@ -22255,7 +22395,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1564554635
 Transform:
@@ -22378,8 +22518,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1575104270
 Transform:
@@ -22471,7 +22611,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1576846859
 Transform:
@@ -22562,8 +22702,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1580272309
 Transform:
@@ -22926,8 +23066,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1591023697
 Transform:
@@ -23019,7 +23159,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1597920426
 Transform:
@@ -23220,7 +23360,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1610390683
 Transform:
@@ -23311,8 +23451,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1616060139
 Transform:
@@ -23457,7 +23597,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1619087078
 Transform:
@@ -23548,8 +23688,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1625203480
 Transform:
@@ -23640,8 +23780,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1628061670
 Transform:
@@ -23733,7 +23873,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1641439518
 Transform:
@@ -23824,8 +23964,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1646956230
 Transform:
@@ -24100,8 +24240,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1663547768
 Transform:
@@ -24440,7 +24580,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1692790373
 Transform:
@@ -24587,8 +24727,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1703276009
 Transform:
@@ -24680,7 +24820,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1706263787
 Transform:
@@ -24772,7 +24912,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1717495566
 Transform:
@@ -24916,8 +25056,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1725979700
 Transform:
@@ -25009,7 +25149,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1729982184
 Transform:
@@ -25263,7 +25403,7 @@ GameObject:
   m_TagString: Floor_Metal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1751578692
 Transform:
@@ -25387,8 +25527,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1754055538
 Transform:
@@ -25546,7 +25686,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1765184881
 Transform:
@@ -25637,8 +25777,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1769505591
 Transform:
@@ -25782,8 +25922,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1776142470
 Transform:
@@ -26389,8 +26529,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1808564856
 Transform:
@@ -26481,8 +26621,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1809057664
 Transform:
@@ -26573,8 +26713,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1816729229
 Transform:
@@ -26665,8 +26805,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1818332882
 Transform:
@@ -26790,8 +26930,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1846948421
 Transform:
@@ -26882,8 +27022,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1852414155
 Transform:
@@ -27115,7 +27255,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1860173103
 Transform:
@@ -27206,8 +27346,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1870970368
 Transform:
@@ -27298,8 +27438,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1876801154
 Transform:
@@ -27446,8 +27586,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1878235734
 Transform:
@@ -27538,8 +27678,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1910251026
 Transform:
@@ -27770,8 +27910,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1933418405
 Transform:
@@ -27916,7 +28056,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1960617103
 Transform:
@@ -28039,8 +28179,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1966976161
 Transform:
@@ -28275,8 +28415,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1981503001
 Transform:
@@ -28702,8 +28842,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2035647082
 Transform:
@@ -28847,8 +28987,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2041090879
 Transform:
@@ -28939,8 +29079,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2046552784
 Transform:
@@ -29032,7 +29172,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2048644239
 Transform:
@@ -29233,7 +29373,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2059602455
 Transform:
@@ -29324,8 +29464,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2065092276
 Transform:
@@ -29504,7 +29644,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2074226742
 Transform:
@@ -29596,7 +29736,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2088630241
 Transform:
@@ -29741,7 +29881,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2101868495
 Transform:
@@ -29889,7 +30029,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2107006040
 Transform:
@@ -29981,7 +30121,7 @@ GameObject:
   m_TagString: Floor_Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2113665934
 Transform:
@@ -30072,8 +30212,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2115498066
 Transform:
@@ -30164,8 +30304,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2124079496
 Transform:
@@ -30312,8 +30452,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2127032240
 Transform:
@@ -30460,8 +30600,8 @@ GameObject:
   m_Name: WallPanel(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2144391681
 Transform:
