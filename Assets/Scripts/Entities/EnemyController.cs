@@ -193,7 +193,7 @@ public class EnemyController : MonoBehaviour
         path.ClearCorners();
         float lng = 0.0f;
 
-        NavMesh.CalculatePath(transform.position, player.transform.position, 0, path);
+        NavMesh.CalculatePath(transform.position, player.transform.position, NavMesh.AllAreas, path);
 
         if ((path.status != NavMeshPathStatus.PathInvalid) && (path.corners.Length > 1))
         {
