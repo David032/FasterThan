@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class Player_Movement : MonoBehaviour
 {
+
     public float playerAcceleration = 7;
     public float playerSneakSpeed = 4;
     public float playerWalkSpeed = 6;
     public float playerRunSpeed = 10;
+    public float playerSprintDuration = 5;
 
-    float movementTypeTransitionSpeed = 1;
+    float playerSprintCharge;
     float playerMaxSpeed;
     Rigidbody playerBody;
+
+    //death anim vars
     public bool canMove = true;
     bool rotate = true;
     public GameObject enemy;
@@ -21,38 +25,52 @@ public class Player_Movement : MonoBehaviour
     {
         playerBody = GetComponent<Rigidbody>();
         playerMaxSpeed = playerWalkSpeed;
+        playerSprintCharge = playerSprintDuration;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(canMove)
+        if (canMove)
         {
             Movement();
         }
-        else if(!canMove && rotate)
+        else if (!canMove && rotate)
         {
             DeadCutScene();
         };
-        
-
     }
 
     void Movement()
     {
+        Ray ray = new Ray(transform.position, Vector3.down);
+        RaycastHit hitInfo;
+        if (GetComponent<Collider>().Raycast(ray, out hitInfo, 100.0f))
+        {
+            string serface = hitInfo.transform.tag;
+        }
 
         //sets max speed for different movement types
         if (Input.GetAxis("AltMovement") < -0.1f)
         {
             playerMaxSpeed = playerSneakSpeed;
+            if (playerSprintDuration > playerSprintCharge)
+            {
+                playerSprintCharge += Time.deltaTime * 2.0f;
+            }
         }
-        else if (Input.GetAxis("AltMovement") > 0.1f)
+        else if (Input.GetAxis("AltMovement") > 0.1f && playerSprintCharge > 0)
         {
             playerMaxSpeed = playerRunSpeed;
+            playerSprintCharge -= Time.deltaTime;
         }
         else
         {
             playerMaxSpeed = playerWalkSpeed;
+            if (playerSprintDuration > playerSprintCharge)
+            {
+                playerSprintCharge += Time.deltaTime * 0.6f;
+            }
         }
 
 
@@ -85,16 +103,10 @@ public class Player_Movement : MonoBehaviour
             }
         }
 
+        //camera controles
         if (Input.GetAxis("Mouse X") != 0.0f)
         {
             playerBody.AddTorque(Vector3.up * Input.GetAxis("Mouse X"));
-        }
-
-        Ray ray = new Ray(transform.position, Vector3.down);
-        RaycastHit hitInfo;
-        if (GetComponent<Collider>().Raycast(ray, out hitInfo, 100.0f))
-        {
-            string serface = hitInfo.transform.tag;
         }
     }
 
@@ -115,8 +127,6 @@ public class Player_Movement : MonoBehaviour
         //    rotate = false;
         //    Debug.Log("Stop");
         //}
-
-
     }
 
     public float playerSpeed() 

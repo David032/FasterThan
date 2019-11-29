@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FloorType : MonoBehaviour
+public class WallSectionRandomiser : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
