@@ -80,19 +80,19 @@ public class Player_Movement : MonoBehaviour
 
         if (mSideways < 0.0f)
         {
-            transform.Translate(Vector3.left * Time.deltaTime * playerAcceleration);
+            transform.Translate(Vector3.left * Time.deltaTime * playerMaxSpeed);
         }
         else if (Input.GetAxis("Horizontal") > 0.0f)
         {
-            transform.Translate(Vector3.right * Time.deltaTime * playerAcceleration);
+            transform.Translate(Vector3.right * Time.deltaTime * playerMaxSpeed);
         }
         if (mForward < 0.0f)
         {
-            transform.Translate(Vector3.back * Time.deltaTime * playerAcceleration);
+            transform.Translate(Vector3.back * Time.deltaTime * playerMaxSpeed);
         }
         else if (mForward > 0.0f)
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * playerAcceleration);
+            transform.Translate(Vector3.forward * Time.deltaTime * playerMaxSpeed);
         }
 
         if (Input.GetAxis("Mouse X") != 0.0f)
