@@ -11,6 +11,7 @@ TagManager:
   - Floor_Stone
   - Collectable
   - Tourch
+  - Torch
   layers:
   - Default
   - TransparentFX
