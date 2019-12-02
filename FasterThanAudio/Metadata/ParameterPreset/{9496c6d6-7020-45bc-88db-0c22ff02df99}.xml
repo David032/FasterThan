@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{9496c6d6-7020-45bc-88db-0c22ff02df99}">
+        <property name="name">
+            <value>Hollowness</value>
+        </property>
+        <relationship name="folder">
+            <destination>{786f27f2-b8c3-4fa7-85f8-b57f11e909b7}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{a0ec676b-2fcc-4e8a-9554-44e49840906b}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{a0ec676b-2fcc-4e8a-9554-44e49840906b}">
+        <property name="maximum">
+            <value>2.9900000000000002</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{c51628c1-d695-4de6-bcf1-04188bd2cc39}">
+        <property name="assetPath">
+            <value>female scared_03.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>48.16554166666667</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{8a769b60-34e6-4452-bad6-a8cd33ed7e6e}</destination>
+        </relationship>
+    </object>
+</objects>

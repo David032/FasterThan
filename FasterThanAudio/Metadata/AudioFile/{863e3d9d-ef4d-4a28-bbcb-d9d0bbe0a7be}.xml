@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{863e3d9d-ef4d-4a28-bbcb-d9d0bbe0a7be}">
+        <property name="assetPath">
+            <value>HellPortal1.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>96</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>24.872791666666668</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{8a769b60-34e6-4452-bad6-a8cd33ed7e6e}</destination>
+        </relationship>
+    </object>
+</objects>
