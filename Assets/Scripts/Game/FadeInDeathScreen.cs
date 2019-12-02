@@ -7,6 +7,10 @@ public class FadeInDeathScreen : MonoBehaviour
     public CanvasGroup uiElement;
     public GameObject player;
 
+    private void Start()
+    {
+        FadeIn();
+    }
     public void FadeIn()
     {
         if(player.GetComponent<Player_Movement>().canMove == false)
