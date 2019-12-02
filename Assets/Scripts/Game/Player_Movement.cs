@@ -6,9 +6,9 @@ public class Player_Movement : MonoBehaviour
 {
 
     public float playerAcceleration = 7;
-    public float playerSneakSpeed = 4;
-    public float playerWalkSpeed = 6;
-    public float playerRunSpeed = 10;
+    public float playerSneakSpeed = 3;
+    public float playerWalkSpeed = 5;
+    public float playerRunSpeed = 9;
     public float playerSprintDuration = 5;
 
     float playerSprintCharge;
@@ -43,6 +43,10 @@ public class Player_Movement : MonoBehaviour
 
     void Movement()
     {
+        float mForward = Input.GetAxis("Vertical");
+        float mSideways = Input.GetAxis("Horizontal");
+        float mRotation = Input.GetAxis("Mouse X");
+
         Ray ray = new Ray(transform.position, Vector3.down);
         RaycastHit hitInfo;
         if (GetComponent<Collider>().Raycast(ray, out hitInfo, 100.0f))
@@ -74,39 +78,27 @@ public class Player_Movement : MonoBehaviour
         }
 
 
-        if (Input.GetAxis("Horizontal") < 0.0f)
+        if (mSideways < 0.0f)
         {
-            if (playerBody.velocity.magnitude < playerMaxSpeed)
-            {
-                playerBody.AddRelativeForce(Vector3.left * playerAcceleration);
-            }
+            transform.Translate(Vector3.left * Time.deltaTime * playerMaxSpeed);
         }
         else if (Input.GetAxis("Horizontal") > 0.0f)
         {
-            if (playerBody.velocity.magnitude < playerMaxSpeed)
-            {
-                playerBody.AddRelativeForce(Vector3.right * playerAcceleration);
-            }
+            transform.Translate(Vector3.right * Time.deltaTime * playerMaxSpeed);
         }
-        if (Input.GetAxis("Vertical") < 0.0f)
+        if (mForward < 0.0f)
         {
-            if (playerBody.velocity.magnitude < playerMaxSpeed)
-            {
-                playerBody.AddRelativeForce(Vector3.back * playerAcceleration);
-            }
+            transform.Translate(Vector3.back * Time.deltaTime * playerMaxSpeed);
         }
-        else if (Input.GetAxis("Vertical") > 0.0f)
+        else if (mForward > 0.0f)
         {
-            if (playerBody.velocity.magnitude < playerMaxSpeed)
-            {
-                playerBody.AddRelativeForce(Vector3.forward * playerAcceleration);
-            }
+            transform.Translate(Vector3.forward * Time.deltaTime * playerMaxSpeed);
         }
 
-        //camera controles
         if (Input.GetAxis("Mouse X") != 0.0f)
         {
-            playerBody.AddTorque(Vector3.up * Input.GetAxis("Mouse X"));
+            Quaternion deltaRotation = Quaternion.Euler(0f, mRotation, 0f);
+            playerBody.MoveRotation(playerBody.rotation * deltaRotation);
         }
     }
 
@@ -131,6 +123,7 @@ public class Player_Movement : MonoBehaviour
 
     public float playerSpeed() 
     {
-        return playerBody.velocity.magnitude;
+        print(playerMaxSpeed);
+        return playerMaxSpeed;
     }
 }
