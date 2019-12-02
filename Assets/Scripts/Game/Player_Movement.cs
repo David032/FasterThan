@@ -6,9 +6,9 @@ public class Player_Movement : MonoBehaviour
 {
 
     public float playerAcceleration = 7;
-    public float playerSneakSpeed = 4;
-    public float playerWalkSpeed = 6;
-    public float playerRunSpeed = 10;
+    public float playerSneakSpeed = 3;
+    public float playerWalkSpeed = 5;
+    public float playerRunSpeed = 9;
     public float playerSprintDuration = 5;
 
     float playerSprintCharge;
@@ -123,6 +123,7 @@ public class Player_Movement : MonoBehaviour
 
     public float playerSpeed() 
     {
-        return playerBody.velocity.magnitude;
+        print(playerMaxSpeed);
+        return playerMaxSpeed;
     }
 }
