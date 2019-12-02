@@ -71,6 +71,7 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
+        //distanceBetween is broken currently geting direct distance rather than via navmesh
         float distanceBetween = GetPathLength(agent.path);
 
         if (distanceBetween < HearingRange && distanceBetween > viewDistance)
