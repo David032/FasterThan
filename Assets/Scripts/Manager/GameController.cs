@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     public float GameTime; //time the game lasts for
     public float totalScore;
     float timeScore;
+    float coinCount = 0;
 
     bool generating;
 
@@ -56,5 +57,13 @@ public class GameController : MonoBehaviour
     public void SetPlayerName(string newName)
     {
         playerName = newName;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name == "Collectable")
+        {
+            coinCount++;
+        }
     }
 }
