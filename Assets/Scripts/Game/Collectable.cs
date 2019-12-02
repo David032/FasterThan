@@ -20,6 +20,7 @@ public class Collectable : MonoBehaviour
         {
             Destroy(gameObject);
             //manager.GetComponent<GameController>().GameTime = game_time + 15.0f;
+         
         }
     }
 }
