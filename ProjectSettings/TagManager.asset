@@ -10,6 +10,8 @@ TagManager:
   - Floor_Grass
   - Floor_Stone
   - Collectable
+  - Tourch
+  - Torch
   layers:
   - Default
   - TransparentFX
