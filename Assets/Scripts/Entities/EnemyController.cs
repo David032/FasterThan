@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public enum State
 {
@@ -141,13 +142,9 @@ public class EnemyController : MonoBehaviour
         anim.SetBool("Kill", false);
         anim.SetBool("Eat", true);
         yield return new WaitForSeconds(0.6f);
-        //Vector3 startPositition = player.transform.position;
-        //Vector3 target = Head.transform.position;
-        //float t = +Time.deltaTime / 1;
-        //transform.position = Vector3.Lerp(startPositition, target, t);
         GetComponent<Respawn>().doRespawn();
         yield return new WaitForSeconds(1f);
-        //possibly reset stuff for refreshing level?
+        SceneManager.LoadScene(2);
         //change to highscore screen
 
 

@@ -96,6 +96,22 @@ MonoBehaviour:
   Min: 0
   Max: 2.99
   Default: 0
+--- !u!114 &-7704003153373563029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Hollow
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &-7450650688754457253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: D:\Projects\FasterThan\FasterThanAudio\Build\Desktop\Master Bank.bank
-  lastModified: 637109895403348190
+  lastModified: 637109930257295430
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -167,7 +183,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -7450650688754457253}
+  - {fileID: -660584059902935016}
   MinDistance: 0
   MaxDistance: 0
   Length: 101000
@@ -262,9 +278,9 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -9026937453547506230}
-  - {fileID: 5979804132453482488}
-  - {fileID: -2021803066782569134}
+  - {fileID: -7704003153373563029}
+  - {fileID: 2758490605300043636}
+  - {fileID: -5716665441501183563}
   MinDistance: 0
   MaxDistance: 0
   Length: 28600
@@ -281,12 +297,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FasterThanAudio\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637109895402868057
+  lastModified: 637109930257405476
   LoadResult: 0
   FileSizes:
   - Name: Desktop
     Value: 1326
   Exists: 1
+--- !u!114 &-5716665441501183563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 5
+  Default: 0
 --- !u!114 &-4448158473155057851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,6 +493,22 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &-660584059902935016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Section
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &-489526500780991432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -526,7 +574,7 @@ MonoBehaviour:
   - {fileID: -6339911732826070699}
   MasterBankRef: {fileID: -7334751447057265701}
   StringsBankRef: {fileID: -5890365310085622245}
-  stringsBankWriteTime: 637109895402868057
+  stringsBankWriteTime: 637109930257405476
   cacheVersion: 2
 --- !u!114 &80060815798327627
 MonoBehaviour:
@@ -678,6 +726,22 @@ MonoBehaviour:
   Max: 1
   Default: 0
 --- !u!114 &2603554580025436646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 2.99
+  Default: 0
+--- !u!114 &2758490605300043636
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
