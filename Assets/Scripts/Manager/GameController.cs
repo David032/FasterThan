@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
     public float GameTime; //time the game lasts for
     public float totalScore;
     public float collectableCount = 0;
+    public GameObject[] collectableAmount;
     float timeScore;
     
 
@@ -16,9 +18,16 @@ public class GameController : MonoBehaviour
     string playerName;
 
     bool muted;
+
     void Start()
     {
-       
+        collectableAmount = GameObject.FindGameObjectsWithTag("Collectable");
+
+        //REMINDER!! Remove Debug once game is passed debug stage
+        if(collectableAmount.Length == 0)
+        {
+            Debug.Log("No game objects found with tag Collectable");
+        }
     }
 
     void Update()
@@ -34,8 +43,10 @@ public class GameController : MonoBehaviour
             generating = false;
         }
 
+
+
         totalScore = GameTime;
-        Debug.Log(totalScore); //Delete at a later date!
+
 
     }
 
@@ -66,5 +77,18 @@ public class GameController : MonoBehaviour
         {
             collectableCount++;
         }
+    }
+
+    public void ToggleFullScreen()
+    {
+        Debug.Log("toggle fullscreen");
+        Screen.SetResolution(Screen.width, Screen.height, !Screen.fullScreen);
+    }
+
+    public void SetResolution(Dropdown dropdown)
+    {
+
+        Debug.Log("Resolution " + Constants.resolution[dropdown.value, 0].ToString() + " by " + Constants.resolution[dropdown.value, 1].ToString());
+        Screen.SetResolution(Constants.resolution[dropdown.value, 0], Constants.resolution[dropdown.value, 1], Screen.fullScreen);
     }
 }

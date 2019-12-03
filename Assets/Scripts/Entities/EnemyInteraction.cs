@@ -19,6 +19,8 @@ public class EnemyInteraction : MonoBehaviour
         if (other.gameObject.tag.Equals("Player"))
         {
             //This is where the deadstate fires
+            player.GetComponent<Player_Movement>().canMove = false;
+            Debug.Log(player.GetComponent<Player_Movement>().canMove);
             print("Yo Dead!");
         }
     }

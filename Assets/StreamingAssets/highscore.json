@@ -1,16 +1,16 @@
 {
     "highScoreEntryList": [
         {
+            "score": 60,
+            "name": "AAA"
+        },
+        {
+            "score": 60,
+            "name": "BAA"
+        },
+        {
             "score": 1,
             "name": "IAK"
-        },
-        {
-            "score": 0,
-            "name": "TUT"
-        },
-        {
-            "score": 0,
-            "name": "TUT"
         },
         {
             "score": 0,

@@ -12,6 +12,7 @@ public class HighScoreTableNew : MonoBehaviour
     private Highscores highscores;
     private string fileName = "highscore.json";
     private string filePath;
+    GameController game;
 
     private void Awake()
     {
@@ -23,7 +24,7 @@ public class HighScoreTableNew : MonoBehaviour
 
         GameObject manager = GameObject.FindGameObjectWithTag("GameController");
         //FeatureGeneration managerGenerator = manager.GetComponent<FeatureGeneration>();
-        GameController game = manager.GetComponent<GameController>();
+        game = manager.GetComponent<GameController>();
         int playerScore = (int)game.totalScore;
 
         scoreTemplate.gameObject.SetActive(false);
