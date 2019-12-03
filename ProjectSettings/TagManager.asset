@@ -12,6 +12,8 @@ TagManager:
   - Collectable
   - Tourch
   - Torch
+  - ExitSpotA
+  - ExitSpotB
   layers:
   - Default
   - TransparentFX
