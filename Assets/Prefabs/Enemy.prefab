@@ -4798,6 +4798,10 @@ GameObject:
   - component: {fileID: 2171944261911203545}
   - component: {fileID: 5413825592873104149}
   - component: {fileID: 8266545108507597110}
+  - component: {fileID: 4021876394750195659}
+  - component: {fileID: 6279035270341923747}
+  - component: {fileID: -8865331203208499528}
+  - component: {fileID: 5486765942815943027}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -4970,6 +4974,88 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &4021876394750195659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640132525389190517}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6279035270341923747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640132525389190517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Monster Howls
+  PlayEvent: 3
+  StopEvent: 4
+  CollisionTag: Player
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &-8865331203208499528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640132525389190517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Monster Movement
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &5486765942815943027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640132525389190517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Monster Contact
+  PlayEvent: 3
+  StopEvent: 4
+  CollisionTag: Player
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7747916703621159702
 GameObject:
   m_ObjectHideFlags: 0
@@ -14497,6 +14583,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: demon
       objectReference: {fileID: 0}
+    - target: {fileID: -7041381269685963124, guid: dd6550ece43af764e8e9a802baa977e6,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7041381269685963124, guid: dd6550ece43af764e8e9a802baa977e6,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b79b01baaf255247846d2216f952cfd, type: 2}
     - target: {fileID: -4216859302048453862, guid: dd6550ece43af764e8e9a802baa977e6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14567,16 +14663,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.6649
       objectReference: {fileID: 0}
-    - target: {fileID: -7041381269685963124, guid: dd6550ece43af764e8e9a802baa977e6,
-        type: 3}
-      propertyPath: m_CastShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7041381269685963124, guid: dd6550ece43af764e8e9a802baa977e6,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 7b79b01baaf255247846d2216f952cfd, type: 2}
     m_RemovedComponents:
     - {fileID: -6057140222963153312, guid: dd6550ece43af764e8e9a802baa977e6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dd6550ece43af764e8e9a802baa977e6, type: 3}

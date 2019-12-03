@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 8227071364613123328}
   - component: {fileID: 3323492259851060289}
   - component: {fileID: 4118569284583887395}
+  - component: {fileID: 304991124582194363}
   m_Layer: 0
   m_Name: ExitSpot
   m_TagString: Untagged
@@ -338,6 +339,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e9f3ee081676864fb79bcf814cd5030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &304991124582194363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8227071364613123329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/End Coridoor
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: Player
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &8227071365254171312
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +521,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.029
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.012
@@ -512,18 +548,6 @@ PrefabInstance:
     - target: {fileID: 400006, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.007
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.029
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: e1ed47237ac53480fb980bdcb6cf98a4, type: 3}
       propertyPath: m_LocalPosition.x
