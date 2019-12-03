@@ -120,6 +120,8 @@ GameObject:
   - component: {fileID: 6265350984627547981}
   - component: {fileID: 6265350984627547982}
   - component: {fileID: 794378343998877941}
+  - component: {fileID: 8783200854595905918}
+  - component: {fileID: 3842870647745486251}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -255,6 +257,42 @@ MonoBehaviour:
   distance: 100
   minBlurDistance: 0
   maxBlurDistance: 0
+--- !u!114 &8783200854595905918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265350984627547983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
+--- !u!114 &3842870647745486251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265350984627547983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/player breathing
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7506874395008997649
 GameObject:
   m_ObjectHideFlags: 0
