@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9026937453547506230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Hollow
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &-8732907721869685430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,6 +96,22 @@ MonoBehaviour:
   Min: 0
   Max: 2.99
   Default: 0
+--- !u!114 &-7450650688754457253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Section
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &-7334751447057265701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: D:\Projects\FasterThan\FasterThanAudio\Build\Desktop\Master Bank.bank
-  lastModified: 637109836860747932
+  lastModified: 637109895403348190
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -135,7 +167,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 7543370932402532332}
+  - {fileID: -7450650688754457253}
   MinDistance: 0
   MaxDistance: 0
   Length: 101000
@@ -230,9 +262,9 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 6174495390273674408}
-  - {fileID: -6499020760096690495}
-  - {fileID: -8584167449237446137}
+  - {fileID: -9026937453547506230}
+  - {fileID: 5979804132453482488}
+  - {fileID: -2021803066782569134}
   MinDistance: 0
   MaxDistance: 0
   Length: 28600
@@ -249,7 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FasterThanAudio\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637109836860617885
+  lastModified: 637109895402868057
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -357,6 +389,22 @@ MonoBehaviour:
   Name: 'monster distance '
   Min: 0
   Max: 65
+  Default: 0
+--- !u!114 &-2021803066782569134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 5
   Default: 0
 --- !u!114 &-1116305826038775055
 MonoBehaviour:
@@ -478,7 +526,7 @@ MonoBehaviour:
   - {fileID: -6339911732826070699}
   MasterBankRef: {fileID: -7334751447057265701}
   StringsBankRef: {fileID: -5890365310085622245}
-  stringsBankWriteTime: 637109836860617885
+  stringsBankWriteTime: 637109895402868057
   cacheVersion: 2
 --- !u!114 &80060815798327627
 MonoBehaviour:
@@ -807,6 +855,22 @@ MonoBehaviour:
   Name: Section
   Min: 0
   Max: 1
+  Default: 0
+--- !u!114 &5979804132453482488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 2.99
   Default: 0
 --- !u!114 &6041496590799149360
 MonoBehaviour:

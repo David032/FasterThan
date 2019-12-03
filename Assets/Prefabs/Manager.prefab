@@ -90,5 +90,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74f78794557a3ba44818a4e4aadf3aae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ExitSpotA: {fileID: 0}
-  ExitSpotB: {fileID: 0}
+  ExitSpotA:
+  - {fileID: 0}
+  - {fileID: 0}
+  ExitSpotB:
+  - {fileID: 0}
+  - {fileID: 0}

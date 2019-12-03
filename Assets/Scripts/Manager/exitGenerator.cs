@@ -5,31 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class exitGenerator : MonoBehaviour
 {
-    public GameObject ExitSpotA;
-    public GameObject ExitSpotB;
+    public GameObject[] ExitSpotA;
+    public GameObject[] ExitSpotB;
 
     bool hasRan = false;
 
     private void Update()
     {
-        print("Boop");
         if (!hasRan && SceneManager.GetActiveScene().buildIndex == 1)
         {
-            print("DEBUG:Beep");
-            ExitSpotA = GameObject.FindGameObjectWithTag("ExitSpotA");
-            ExitSpotB = GameObject.FindGameObjectWithTag("ExitSpotB");
+            ExitSpotA = GameObject.FindGameObjectsWithTag("ExitSpotA");
+            ExitSpotB = GameObject.FindGameObjectsWithTag("ExitSpotB");
 
             int rndNumber = Random.Range(0, 2);
-            print(rndNumber);
             if (rndNumber == 0)
             {
-                ExitSpotA.SetActive(true);
-                ExitSpotB.SetActive(false);
+                ExitSpotA[0].SetActive(true);
+                ExitSpotA[1].SetActive(true);
+                ExitSpotB[0].SetActive(false);
+                ExitSpotB[1].SetActive(false);
             }
             else
             {
-                ExitSpotA.SetActive(false);
-                ExitSpotB.SetActive(true);
+                ExitSpotA[0].SetActive(false);
+                ExitSpotA[1].SetActive(false);
+                ExitSpotB[0].SetActive(true);
+                ExitSpotB[1].SetActive(true);
             }
             hasRan = true;
         }
