@@ -8,7 +8,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000231C9698D78 isAsync 1 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000231D746B9D8 isAsync 1 updatePeriod 0.02
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
@@ -26,14 +26,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 3', format=2, channels=1, frequency=48000, lengthbytes=31104, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.049937.
@@ -42,14 +42,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Ghost Division 2', format=2, channels=2, frequency=48000, lengthbytes=86784, lengthpcm=347536, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.601299.
@@ -58,14 +58,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_start_Female_Scared_Breathing 1', format=2, channels=1, frequency=48000, lengthbytes=11424, lengthpcm=70656, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.044750.
@@ -74,14 +74,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Trapped 1', format=2, channels=2, frequency=48000, lengthbytes=143392, lengthpcm=421394, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999645.
@@ -90,14 +90,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 4', format=2, channels=1, frequency=48000, lengthbytes=39072, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.020354.
@@ -106,14 +106,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 1', format=2, channels=1, frequency=48000, lengthbytes=35264, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.019695.
@@ -122,14 +122,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 2', format=2, channels=1, frequency=48000, lengthbytes=35616, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025402.
@@ -138,33 +138,33 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFEE9C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A1F7DFF0BC
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB88FCD9C0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB88FCD990
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB88FCDA90
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB88FCDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231B209F008
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000231D65EC508
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Forest Spirit 3', format=2, channels=2, frequency=48000, lengthbytes=47456, lengthpcm=156242, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.507671.
-[LOG] SoundI::release                          :  (00000231DBED34B8)
-[LOG] SoundI::release                          :     Trapped 1 (00000231C9AEFB58)
-[LOG] SoundI::release                          :  (00000231DBED3BE8)
-[LOG] SoundI::release                          :     Forest Spirit 3 (00000231C9AEE638)
-[LOG] SoundI::release                          :  (00000231DBED2378)
-[LOG] SoundI::release                          :     Ghost Division 2 (00000231C9AEECB8)
-[LOG] SoundI::release                          :  (00000231DBED2658)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 1 (00000231C9AEFCF8)
-[LOG] SoundI::release                          :  (00000231DBED2098)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 3 (0000023196CD47F8)
-[LOG] SoundI::release                          :  (00000231DBED24E8)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 4 (00000231C9AEF4D8)
-[LOG] SoundI::release                          :  (00000231DBED3D58)
-[LOG] SoundI::release                          :     Player_female_scared_start_Female_Scared_Breathing 1 (00000231C9AEF9B8)
-[LOG] SoundI::release                          :  (00000231DBED3348)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 2 (00000231C9AEEE58)
+[LOG] SoundI::release                          :  (00000231D67B51E8)
+[LOG] SoundI::release                          :     Trapped 1 (00000231C9AEE638)
+[LOG] SoundI::release                          :  (00000231D67B57A8)
+[LOG] SoundI::release                          :     Forest Spirit 3 (00000231AECE78C8)
+[LOG] SoundI::release                          :  (00000231B0AAFD08)
+[LOG] SoundI::release                          :     Ghost Division 2 (00000231C9AEE2F8)
+[LOG] SoundI::release                          :  (00000231D67B5638)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 1 (00000231AECE7588)
+[LOG] SoundI::release                          :  (00000231D67B54C8)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 2 (00000231AECE70A8)
+[LOG] SoundI::release                          :  (00000231D67B5358)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 4 (00000231AECE7728)
+[LOG] SoundI::release                          :  (00000231B0AAFE78)
+[LOG] SoundI::release                          :     Player_female_scared_start_Female_Scared_Breathing 1 (00000231C9AEE498)
+[LOG] SoundI::release                          :  (00000231B0AAFB98)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 3 (00000231C9AEE158)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

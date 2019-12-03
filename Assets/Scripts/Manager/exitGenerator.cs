@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class exitGenerator : MonoBehaviour
 {
-    public GameObject[] ExitSpotA;
-    public GameObject[] ExitSpotB;
+    public GameObject ExitSpotA;
+    public GameObject ExitSpotB;
+    public GameObject WallSpotA;
+    public GameObject WallSpotB;
 
     bool hasRan = false;
 
@@ -14,23 +16,25 @@ public class exitGenerator : MonoBehaviour
     {
         if (!hasRan && SceneManager.GetActiveScene().buildIndex == 1)
         {
-            ExitSpotA = GameObject.FindGameObjectsWithTag("ExitSpotA");
-            ExitSpotB = GameObject.FindGameObjectsWithTag("ExitSpotB");
+            ExitSpotA = GameObject.FindGameObjectWithTag("ExitSpotA");
+            ExitSpotB = GameObject.FindGameObjectWithTag("ExitSpotB");
+            WallSpotA = GameObject.FindGameObjectWithTag("WallSpotA");
+            WallSpotB = GameObject.FindGameObjectWithTag("WallSpotB");
 
             int rndNumber = Random.Range(0, 2);
             if (rndNumber == 0)
             {
-                ExitSpotA[0].SetActive(true);
-                ExitSpotA[1].SetActive(true);
-                ExitSpotB[0].SetActive(false);
-                ExitSpotB[1].SetActive(false);
+                ExitSpotA.SetActive(true);
+                WallSpotA.SetActive(false);
+                ExitSpotB.SetActive(false);
+                WallSpotB.SetActive(true);
             }
             else
             {
-                ExitSpotA[0].SetActive(false);
-                ExitSpotA[1].SetActive(false);
-                ExitSpotB[0].SetActive(true);
-                ExitSpotB[1].SetActive(true);
+                ExitSpotA.SetActive(false);
+                WallSpotA.SetActive(true);
+                ExitSpotB.SetActive(true);
+                WallSpotB.SetActive(false);
             }
             hasRan = true;
         }
