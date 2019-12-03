@@ -18,7 +18,7 @@ public class SetCanMove : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.name == "Player")
+        if(other.gameObject.name == "Enemy")
         {
             other.gameObject.GetComponent<Player_Movement>().canMove = false;
             Debug.Log("Cant Move");
