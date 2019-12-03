@@ -20642,7 +20642,7 @@ GameObject:
   - component: {fileID: 859126348}
   m_Layer: 0
   m_Name: WallPanel(Clone) (1)
-  m_TagString: ExitSpotB
+  m_TagString: WallSpotA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -48860,7 +48860,7 @@ GameObject:
   - component: {fileID: 2083078371}
   m_Layer: 0
   m_Name: WallPanel(Clone) (1)
-  m_TagString: ExitSpotA
+  m_TagString: WallSpotB
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
