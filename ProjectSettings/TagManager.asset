@@ -16,6 +16,8 @@ TagManager:
   - ExitSpotB
   - WallSpotB
   - WallSpotA
+  - Enemy
+  - Demon
   layers:
   - Default
   - TransparentFX

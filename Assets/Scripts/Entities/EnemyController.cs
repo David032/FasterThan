@@ -20,6 +20,7 @@ public class EnemyController : MonoBehaviour
 
     public State EnemyState = State.Patrolling;
     public NavMeshData levelMesh;
+    Animator anim;
 
     [Range(1, 100)]
     public int FieldOfView = 45;
@@ -40,6 +41,7 @@ public class EnemyController : MonoBehaviour
     bool amTracking = false;
     bool amHunting = false;
     bool amPatrolling = false;
+    public bool eatPlayer = false;
 
     float MinX;
     float MaxX;
@@ -50,6 +52,8 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
+        anim = GameObject.FindGameObjectWithTag("Demon").GetComponent<Animator>();
+        anim.SetBool("Walking", true);
         agent = GetComponent<NavMeshAgent>();
         if (player == null)
         {
@@ -71,18 +75,26 @@ public class EnemyController : MonoBehaviour
     }
 
     void Update()
-    {
+    {   
         //distanceBetween is broken currently geting direct distance rather than via navmesh
         float distanceBetween = GetPathLength(agent.path);
 
-        if (distanceBetween < HearingRange && distanceBetween > viewDistance)
+        if(eatPlayer)
         {
+            Debug.Log("EAT");
+            StartCoroutine(KillPlayer());
+           
+        }
+        else
+        {
+            if (distanceBetween < HearingRange && distanceBetween > viewDistance)
+          {
             EnemyState = State.Tracking;
-        }
-        else if (distanceBetween < viewDistance)
-        {
+            }
+         else if (distanceBetween < viewDistance)
+         {
             EnemyState = State.Hunting;
-        }
+         }
         else
         {
             EnemyState = State.Patrolling;
@@ -116,9 +128,31 @@ public class EnemyController : MonoBehaviour
             default:
                 break;
         }
-
+       }
     }
 
+    IEnumerator KillPlayer()
+   {
+        Quaternion rot = Quaternion.LookRotation(player.transform.position - transform.position);
+        this.transform.rotation = Quaternion.Slerp(transform.rotation, rot, Time.deltaTime * 8);
+        anim.SetBool("Walking", false);
+        anim.SetBool("Kill", true);
+        yield return new WaitForSeconds(2f);
+        anim.SetBool("Kill", false);
+        anim.SetBool("Eat", true);
+        yield return new WaitForSeconds(0.6f);
+        //Vector3 startPositition = player.transform.position;
+        //Vector3 target = Head.transform.position;
+        //float t = +Time.deltaTime / 1;
+        //transform.position = Vector3.Lerp(startPositition, target, t);
+        GetComponent<Respawn>().doRespawn();
+        yield return new WaitForSeconds(1f);
+        //possibly reset stuff for refreshing level?
+        //change to highscore screen
+
+
+
+    }
     Vector3 locatePlayer() 
     {
         Vector3 believedLocation = player.transform.position;
