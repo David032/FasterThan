@@ -9,6 +9,8 @@ TagManager:
   - Floor_Metal
   - Floor_Grass
   - Floor_Stone
+  - Enemy
+  - Demon
   layers:
   - Default
   - TransparentFX

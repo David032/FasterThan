@@ -20,6 +20,7 @@ public class EnemyInteraction : MonoBehaviour
         {
             //This is where the deadstate fires
             player.GetComponent<Player_Movement>().canMove = false;
+            GetComponent<EnemyController>().eatPlayer = true;
             Debug.Log(player.GetComponent<Player_Movement>().canMove);
             print("Yo Dead!");
         }
