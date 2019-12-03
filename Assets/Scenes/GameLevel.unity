@@ -35383,6 +35383,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitSpot2
       objectReference: {fileID: 0}
+    - target: {fileID: 8227071364613123329, guid: d83bf409d649cc34283ea6ffe2dad284,
+        type: 3}
+      propertyPath: m_TagString
+      value: ExitSpotB
+      objectReference: {fileID: 0}
     - target: {fileID: 8227071364613123328, guid: d83bf409d649cc34283ea6ffe2dad284,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49927,6 +49932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8227071364613123329, guid: d83bf409d649cc34283ea6ffe2dad284,
+        type: 3}
+      propertyPath: m_TagString
+      value: ExitSpotA
       objectReference: {fileID: 0}
     - target: {fileID: 8227071364613123328, guid: d83bf409d649cc34283ea6ffe2dad284,
         type: 3}

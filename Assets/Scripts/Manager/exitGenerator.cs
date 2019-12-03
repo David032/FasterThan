@@ -14,11 +14,12 @@ public class exitGenerator : MonoBehaviour
     {
         if (!hasRan && SceneManager.GetActiveScene().buildIndex == 1)
         {
+            print("Beep");
             ExitSpotA = GameObject.FindGameObjectWithTag("ExitSpotA");
-            ExitSpotA = GameObject.FindGameObjectWithTag("ExitSpotB");
+            ExitSpotB = GameObject.FindGameObjectWithTag("ExitSpotB");
 
-            int rndNumber = Random.Range(0, 1);
-
+            int rndNumber = Random.Range(0, 2);
+            print(rndNumber);
             if (rndNumber == 0)
             {
                 ExitSpotA.SetActive(true);
