@@ -9,13 +9,14 @@ public enum State
     Patrolling,
     Tracking,
     Hunting
+        //do we need to add a state for Capture of player?
 }
 
 public class EnemyController : MonoBehaviour
 {
     const float TrackingTime = 1f;
     const float HuntingTime = 1f;
-    const float ResetTime = 3f;
+    const float ResetTime = 3.5f;
 
     public State EnemyState = State.Patrolling;
     public NavMeshData levelMesh;
@@ -52,11 +53,11 @@ public class EnemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         if (player == null)
         {
-            print("Didn't find player");
+            print("Didn't find player!");
         }
         if (agent == null)
         {
-            print("Didn't find agent");
+            print("Didn't find agent!");
         }
         DefineBoundries();
     }
@@ -194,7 +195,9 @@ public class EnemyController : MonoBehaviour
         path.ClearCorners();
         float lng = 0.0f;
 
-        NavMesh.CalculatePath(transform.position, player.transform.position, 0, path);
+
+
+        NavMesh.CalculatePath(transform.position, player.transform.position, NavMesh.AllAreas, path); ///changed to Navmesh.Areas from Zero.
 
         if ((path.status != NavMeshPathStatus.PathInvalid) && (path.corners.Length > 1))
         {
