@@ -352,8 +352,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Event: event:/End Coridoor
-  PlayEvent: 3
-  StopEvent: 4
+  PlayEvent: 1
+  StopEvent: 2
   CollisionTag: Player
   AllowFadeout: 1
   TriggerOnce: 0

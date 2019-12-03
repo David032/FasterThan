@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FasterThanAudio\FasterThanAudio.fspro
-  SourceProjectPathUnformatted: FasterThanAudio\FasterThanAudio.fspro
+  sourceProjectPath: FasterThanAudio\Game Jam .fspro
+  SourceProjectPathUnformatted: FasterThanAudio\Game Jam .fspro
   SourceBankPathUnformatted: FasterThanAudio\Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
