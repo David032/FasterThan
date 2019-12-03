@@ -14,6 +14,8 @@ TagManager:
   - Torch
   - ExitSpotA
   - ExitSpotB
+  - Enemy
+  - Demon
   layers:
   - Default
   - TransparentFX

@@ -5,7 +5,7 @@ using UnityEngine;
 public class FadeInDeathScreen : MonoBehaviour
 {
     public GameObject player;
-    public float Duration = 0.4f;
+    public float Duration;
 
     void Update()
     { 
