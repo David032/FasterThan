@@ -8,7 +8,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001D4CA98FED8 isAsync 1 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001E4D82C7208 isAsync 1 updatePeriod 0.02
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
@@ -24,189 +24,1427 @@
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4CC4B7AC8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Ghost Division 2', format=2, channels=2, frequency=48000, lengthbytes=86784, lengthpcm=347536, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.601299.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4CC4B7AC8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Trapped 1', format=2, channels=2, frequency=48000, lengthbytes=143392, lengthpcm=421394, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999645.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4CC4B7AC8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Forest Spirit 3', format=2, channels=2, frequency=48000, lengthbytes=47456, lengthpcm=156242, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.507671.
-[LOG] SystemI::createSound                     : filename = FasterThanAudio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] SystemI::createSound                     : setdata soundi = 000001D4F1539118 : node = 000001D4D0F929A0
-[LOG] SystemI::createSound                     : add node to async list : head = 000001D4F0F251D8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D4F1539118
-[LOG] SystemI::createSound                     : filename = FasterThanAudio\Build\Desktop/Master Bank.bank : mode 02010082
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     Create name='FasterThanAudio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSound                     :     setdata soundi = 000001D4F1539988 : node = 000001D4D0F92070
-[LOG] SystemI::createSound                     :     add node to async list : head = 000001D4F0F251D8.  list count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D4D0F92AB8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MonsterAppear', format=2, channels=2, frequency=48000, lengthbytes=376512, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.217696.
-[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D4F1539118
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D4F1539988
-[LOG] SystemI::createSoundInternal             :     Create name='FasterThanAudio\Build\Desktop/Master Bank.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75392
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D4D0F92188
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spirit of Medea', format=2, channels=2, frequency=48000, lengthbytes=223840, lengthpcm=768008, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.422180.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D4F1539988
-[LOG] SoundI::getSubSound                      : sound 000001D4F1539118.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 000001D4F1539988.  Subsound index 0 / 1
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4F1585598
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 3', format=2, channels=1, frequency=48000, lengthbytes=31104, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.049937.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4F1585598
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Jingle-001', format=2, channels=1, frequency=48000, lengthbytes=5760, lengthpcm=74723, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.318057.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Stone 2', format=2, channels=1, frequency=48000, lengthbytes=3520, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.475123.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Ghost Division 2', format=2, channels=2, frequency=48000, lengthbytes=86784, lengthpcm=347536, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.601299.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Encumberment_1-003', format=2, channels=1, frequency=48000, lengthbytes=10208, lengthpcm=107160, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.157300.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_start_Female_Scared_Breathing 1', format=2, channels=1, frequency=48000, lengthbytes=11424, lengthpcm=70656, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.044750.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4F1585598
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Stone 4', format=2, channels=1, frequency=48000, lengthbytes=3616, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.648103.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Encumberment_1-002', format=2, channels=1, frequency=48000, lengthbytes=10080, lengthpcm=106702, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.108210.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Grass 2', format=2, channels=1, frequency=48000, lengthbytes=3584, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.063274.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Metal 3', format=2, channels=1, frequency=48000, lengthbytes=3456, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.521834.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Grass 1', format=2, channels=1, frequency=48000, lengthbytes=3552, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.070925.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Trapped 1', format=2, channels=2, frequency=48000, lengthbytes=143392, lengthpcm=421394, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999645.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Encumberment_1-001', format=2, channels=1, frequency=48000, lengthbytes=9152, lengthpcm=101199, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.095460.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Sneak 4', format=2, channels=1, frequency=48000, lengthbytes=15200, lengthpcm=68928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.278294.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Grass 3', format=2, channels=1, frequency=48000, lengthbytes=3744, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.121438.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Hollow 2', format=2, channels=1, frequency=48000, lengthbytes=832, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.184002.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Wood 1', format=2, channels=1, frequency=48000, lengthbytes=3648, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.315754.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Jingle-004', format=2, channels=1, frequency=48000, lengthbytes=6688, lengthpcm=75902, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.300795.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Wood 3', format=2, channels=1, frequency=48000, lengthbytes=3616, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.415924.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Stone 1', format=2, channels=1, frequency=48000, lengthbytes=3520, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.604815.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Metal 2', format=2, channels=1, frequency=48000, lengthbytes=3456, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.594211.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Grass 4', format=2, channels=1, frequency=48000, lengthbytes=3744, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.103113.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Hollow 1', format=2, channels=1, frequency=48000, lengthbytes=864, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.184164.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Jingle-002', format=2, channels=1, frequency=48000, lengthbytes=5632, lengthpcm=74723, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.425446.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 4', format=2, channels=1, frequency=48000, lengthbytes=39072, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.020354.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4F1585598
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Stone 3', format=2, channels=1, frequency=48000, lengthbytes=3520, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.443373.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Hollow 4', format=2, channels=1, frequency=48000, lengthbytes=800, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.183964.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Wood 2', format=2, channels=1, frequency=48000, lengthbytes=3680, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.441588.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Jingle-003', format=2, channels=1, frequency=48000, lengthbytes=7264, lengthpcm=75322, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.346428.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 1', format=2, channels=1, frequency=48000, lengthbytes=35264, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.019695.
 [LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
 [LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75392
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000044E6AFF37C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9CDFD9C0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9CDFD990
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9CDFDA90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9CDFDB50
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D4F1585598
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Sneak 2', format=2, channels=1, frequency=48000, lengthbytes=12896, lengthpcm=68928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.987013.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Wood 4', format=2, channels=1, frequency=48000, lengthbytes=3744, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.689349.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Sneak 3', format=2, channels=1, frequency=48000, lengthbytes=12544, lengthpcm=68928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.640265.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Player_female_scared_Female_Scared_Breathing 2', format=2, channels=1, frequency=48000, lengthbytes=35616, lengthpcm=236544, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.025402.
-[LOG] SoundI::release                          : Spirit of Medea (000001D4F1539988)
-[LOG] SoundI::release                          :     Spirit of Medea (000001D4F0F253C8)
-[LOG] SoundI::release                          :     Spirit of Medea (000001D4CAF8DB88)
-[LOG] SoundI::release                          : MonsterAppear (000001D4F1539118)
-[LOG] SoundI::release                          :     MonsterAppear (000001D4F0F28E48)
-[LOG] SoundI::release                          :     MonsterAppear (000001D4F1539CE8)
-[LOG] SoundI::release                          :  (000001D4915F8328)
-[LOG] SoundI::release                          :     Trapped 1 (000001D4F0F28B08)
-[LOG] SoundI::release                          :  (000001D4915F8BC8)
-[LOG] SoundI::release                          :     Forest Spirit 3 (000001D4F0F28CA8)
-[LOG] SoundI::release                          :  (000001D4915FA438)
-[LOG] SoundI::release                          :     Ghost Division 2 (000001D4F0F26DC8)
-[LOG] SoundI::release                          :  (000001D4D159D6A8)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 1 (000001D4C83878A8)
-[LOG] SoundI::release                          :  (000001D4D159C9B8)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 3 (000001D4C83888E8)
-[LOG] SoundI::release                          :  (000001D4D159CE08)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 4 (000001D4C8388DC8)
-[LOG] SoundI::release                          :  (000001D4D159CC98)
-[LOG] SoundI::release                          :     Player_female_scared_start_Female_Scared_Breathing 1 (000001D4C8387BE8)
-[LOG] SoundI::release                          :  (000001D4D159C6D8)
-[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 2 (000001D4C8387F28)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Metal 1', format=2, channels=1, frequency=48000, lengthbytes=3456, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.538257.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Forest Spirit 3', format=2, channels=2, frequency=48000, lengthbytes=47456, lengthpcm=156242, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.507671.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Metal 4', format=2, channels=1, frequency=48000, lengthbytes=3456, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.451688.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='SFX_Human_Footsteps_Encumberment_1-004', format=2, channels=1, frequency=48000, lengthbytes=10656, lengthpcm=110371, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.097424.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Sneak 1', format=2, channels=1, frequency=48000, lengthbytes=13472, lengthpcm=68928, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.095364.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000A7550FF32C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB9A14D9C0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB9A14D990
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB9A14DA90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB9A14DB50
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001E4C2394738
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Footsteps__Hollow 3', format=2, channels=1, frequency=48000, lengthbytes=832, lengthpcm=20224, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.184123.
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[LOG] SystemI::createSound                     : filename = FasterThanAudio\Build\Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] SystemI::createSound                     : setdata soundi = 000001E495BF90C8 : node = 000001E4D8968DE0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001E4D8E14F18.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001E495BF90C8
+[LOG] SystemI::createSoundInternal             :     Create name='FasterThanAudio\Build\Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     filename = FasterThanAudio\Build\Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5438048
+[LOG] SystemI::createSound                     :     setdata soundi = 000001E4D67CB198 : node = 000001E4D8B2C8A0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75744
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001E4D8E14F18.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001E4D8968EF8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[WRN] TimelineInstance::performScheduling      :     101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Mountain_Bed', format=2, channels=2, frequency=48000, lengthbytes=189280, lengthpcm=726912, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.259552.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001E495BF90C8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001E4D67CB198
+[LOG] SystemI::createSoundInternal             :     Create name='FasterThanAudio\Build\Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5438048
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 75744
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001E4D8B2C9B8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Drone Glass Harp 1', format=2, channels=2, frequency=48000, lengthbytes=470272, lengthpcm=2008520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.345479.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001E4D67CB198
+[LOG] SoundI::getSubSound                      : sound 000001E495BF90C8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 000001E4D67CB198.  Subsound index 0 / 1
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[LOG] SoundI::release                          : Drone Glass Harp 1 (000001E4D67CB198)
+[LOG] SoundI::release                          :     Drone Glass Harp 1 (000001E4AE9FB398)
+[LOG] SoundI::release                          :     Drone Glass Harp 1 (000001E4D65434A8)
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Silent')
+[WRN] TimelineInstance::performScheduling      : 101 instantaneous transitions encountered; bailing out to avoid scheduler hang (last transition was to 'Start')
+[LOG] SoundI::release                          :  (000001E4D68BD068)
+[LOG] SoundI::release                          :     Trapped 1 (000001E4D8E15448)
+[LOG] SoundI::release                          :  (000001E4B76CB7E8)
+[LOG] SoundI::release                          :     Forest Spirit 3 (000001E4D8E138A8)
+[LOG] SoundI::release                          :  (000001E4D68BE1A8)
+[LOG] SoundI::release                          :     Ghost Division 2 (000001E4D8452578)
+[LOG] SoundI::release                          :  (000001E4B76CE308)
+[LOG] SoundI::release                          :     Footsteps__Sneak 1 (000001E4D8E148E8)
+[LOG] SoundI::release                          :  (000001E4B76CEBA8)
+[LOG] SoundI::release                          :     Footsteps__Sneak 2 (000001E4D8E15FA8)
+[LOG] SoundI::release                          :  (000001E4B76CDD48)
+[LOG] SoundI::release                          :     Footsteps__Sneak 3 (000001E4D8E16148)
+[LOG] SoundI::release                          : Mountain_Bed (000001E495BF90C8)
+[LOG] SoundI::release                          :     Mountain_Bed (000001E4AE9FC718)
+[LOG] SoundI::release                          :     Mountain_Bed (000001E4D67CC0C8)
+[LOG] SoundI::release                          :  (000001E4D68BCAA8)
+[LOG] SoundI::release                          :     Footsteps__Sneak 4 (000001E4D8E13228)
+[LOG] SoundI::release                          :  (000001E4D68BE318)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Encumberment_1-001 (000001E4D8E16968)
+[LOG] SoundI::release                          :  (000001E4D68BC098)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Encumberment_1-002 (000001E4D84528B8)
+[LOG] SoundI::release                          :  (000001E4D68BB688)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Encumberment_1-003 (000001E4D8452A58)
+[LOG] SoundI::release                          :  (000001E4B76CC648)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Encumberment_1-004 (000001E4D8E13D88)
+[LOG] SoundI::release                          :  (000001E4D68BB7F8)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Jingle-001 (000001E4B76C8F38)
+[LOG] SoundI::release                          :  (000001E4D68BE5F8)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Jingle-002 (000001E4D8E133C8)
+[LOG] SoundI::release                          :  (000001E4B76CDA68)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Jingle-003 (000001E4D8E155E8)
+[LOG] SoundI::release                          :  (000001E4D68BD348)
+[LOG] SoundI::release                          :     SFX_Human_Footsteps_Jingle-004 (000001E4D8E16CA8)
+[LOG] SoundI::release                          :  (000001E4D68BB3A8)
+[LOG] SoundI::release                          :     Footsteps__Hollow 1 (000001E4D8E15928)
+[LOG] SoundI::release                          :  (000001E4D68BDA78)
+[LOG] SoundI::release                          :     Footsteps__Hollow 2 (000001E4D8E16628)
+[LOG] SoundI::release                          :  (000001E4B76CDEB8)
+[LOG] SoundI::release                          :     Footsteps__Hollow 3 (000001E4D8E14A88)
+[LOG] SoundI::release                          :  (000001E4D68BB238)
+[LOG] SoundI::release                          :     Footsteps__Hollow 4 (000001E4D8E15C68)
+[LOG] SoundI::release                          :  (000001E4D68BC208)
+[LOG] SoundI::release                          :     Footsteps__Stone 1 (000001E4D8E15788)
+[LOG] SoundI::release                          :  (000001E4D68BEA48)
+[LOG] SoundI::release                          :     Footsteps__Stone 2 (000001E4D84523D8)
+[LOG] SoundI::release                          :  (000001E4D68BEE98)
+[LOG] SoundI::release                          :     Footsteps__Stone 3 (000001E4D8E167C8)
+[LOG] SoundI::release                          :  (000001E4D68BB518)
+[LOG] SoundI::release                          :     Footsteps__Stone 4 (000001E4D8452098)
+[LOG] SoundI::release                          :  (000001E4D68BB968)
+[LOG] SoundI::release                          :     Footsteps__Grass 1 (000001E4D8452718)
+[LOG] SoundI::release                          :  (000001E4D68BC938)
+[LOG] SoundI::release                          :     Footsteps__Grass 2 (000001E4D8452D98)
+[LOG] SoundI::release                          :  (000001E4D68BCC18)
+[LOG] SoundI::release                          :     Footsteps__Grass 3 (000001E4D8E16B08)
+[LOG] SoundI::release                          :  (000001E4D68BCEF8)
+[LOG] SoundI::release                          :     Footsteps__Grass 4 (000001E4D8E13A48)
+[LOG] SoundI::release                          :  (000001E4D68BE488)
+[LOG] SoundI::release                          :     Footsteps__Wood 1 (000001E4D8E13708)
+[LOG] SoundI::release                          :  (000001E4B76CBAC8)
+[LOG] SoundI::release                          :     Footsteps__Wood 2 (000001E4D8E15E08)
+[LOG] SoundI::release                          :  (000001E4D68BEBB8)
+[LOG] SoundI::release                          :     Footsteps__Wood 3 (000001E4D8E16E48)
+[LOG] SoundI::release                          :  (000001E4B76CB398)
+[LOG] SoundI::release                          :     Footsteps__Wood 4 (000001E4D8E13568)
+[LOG] SoundI::release                          :  (000001E4B76CB508)
+[LOG] SoundI::release                          :     Footsteps__Metal 1 (000001E4D8E14748)
+[LOG] SoundI::release                          :  (000001E4D68BCD88)
+[LOG] SoundI::release                          :     Footsteps__Metal 2 (000001E4D8E13088)
+[LOG] SoundI::release                          :  (000001E4D68BC658)
+[LOG] SoundI::release                          :     Footsteps__Metal 3 (000001E4D8452238)
+[LOG] SoundI::release                          :  (000001E4B76CDBD8)
+[LOG] SoundI::release                          :     Footsteps__Metal 4 (000001E4D8E13BE8)
+[LOG] SoundI::release                          :  (000001E4B76CD788)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 2 (000001E4D8E162E8)
+[LOG] SoundI::release                          :  (000001E4D68BD1D8)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 3 (000001E4B76C8D98)
+[LOG] SoundI::release                          :  (000001E4D68BE768)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 4 (000001E4D8E15AC8)
+[LOG] SoundI::release                          :  (000001E4D68BBF28)
+[LOG] SoundI::release                          :     Player_female_scared_start_Female_Scared_Breathing 1 (000001E4D8452BF8)
+[LOG] SoundI::release                          :  (000001E4B76CC4D8)
+[LOG] SoundI::release                          :     Player_female_scared_Female_Scared_Breathing 1 (000001E4D8E16488)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

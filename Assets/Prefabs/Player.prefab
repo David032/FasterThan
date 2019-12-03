@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 794378343998877941}
   - component: {fileID: 8783200854595905918}
   - component: {fileID: 3842870647745486251}
+  - component: {fileID: 4449376092811531979}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -293,6 +294,20 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &4449376092811531979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6265350984627547983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99661d8352436949a8da2f888dc9d6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputFootsteps: event:/Footsteps Main
+  walkingspeed: 0
 --- !u!1 &7506874395008997649
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +504,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6509397279138086922, guid: 45baa7ca95fbd7f46ab74843c203f6b3, type: 3}
     - {fileID: 6509397279280117866, guid: 45baa7ca95fbd7f46ab74843c203f6b3, type: 3}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 45baa7ca95fbd7f46ab74843c203f6b3, type: 3}
 --- !u!1 &4009736526339590832 stripped
 GameObject:
