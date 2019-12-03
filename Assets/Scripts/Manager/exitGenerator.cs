@@ -10,12 +10,14 @@ public class exitGenerator : MonoBehaviour
     public GameObject WallSpotA;
     public GameObject WallSpotB;
 
-    bool hasRan = false;
+    public bool hasRan = false;
 
     private void Update()
     {
+        print("BoopBeep!");
         if (!hasRan && SceneManager.GetActiveScene().buildIndex == 1)
         {
+            print("BeepBoop");
             ExitSpotA = GameObject.FindGameObjectWithTag("ExitSpotA");
             ExitSpotB = GameObject.FindGameObjectWithTag("ExitSpotB");
             WallSpotA = GameObject.FindGameObjectWithTag("WallSpotA");

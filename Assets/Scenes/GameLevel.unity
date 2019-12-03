@@ -4932,6 +4932,16 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2963639672874935573, guid: 0f754fa322aae644da73d24206f7c2af,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 536268723}
+    - target: {fileID: 2963639672874935569, guid: 0f754fa322aae644da73d24206f7c2af,
+        type: 3}
+      propertyPath: uiElement
+      value: 
+      objectReference: {fileID: 614588221}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f754fa322aae644da73d24206f7c2af, type: 3}
 --- !u!1 &216903177
