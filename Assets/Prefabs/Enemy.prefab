@@ -4796,6 +4796,8 @@ GameObject:
   - component: {fileID: 3640132525389190516}
   - component: {fileID: 6607099869817470110}
   - component: {fileID: 2171944261911203545}
+  - component: {fileID: 5413825592873104149}
+  - component: {fileID: 8266545108507597110}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -4931,15 +4933,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81b38febc03c9284cac212b3f8c565f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyState: 0
-  levelMesh: {fileID: 0}
-  FieldOfView: 25
-  viewDistance: 50
-  HuntingSpeed: 5
-  BaseSpeed: 5
-  HearingRange: 30
-  DebugView: 0
+  EnemyState: 1
+  levelMesh: {fileID: 23800000, guid: 9a39b9042fe902f469a47c573128cb46, type: 2}
+  FieldOfView: 3
+  viewDistance: 5
+  HuntingSpeed: 1.5
+  BaseSpeed: 1
+  HearingRange: 15
+  DebugView: 1
   player: {fileID: 0}
+--- !u!114 &5413825592873104149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640132525389190517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7105334e399530542a56f5b9cff4fc0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  enemy: {fileID: 0}
+--- !u!136 &8266545108507597110
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3640132525389190517}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.71
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7747916703621159702
 GameObject:
   m_ObjectHideFlags: 0
