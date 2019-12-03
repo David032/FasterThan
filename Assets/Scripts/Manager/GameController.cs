@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     public float GameTime; //time the game lasts for
     public float totalScore;
     public float collectableCount = 0;
+    public GameObject[] collectableAmount;
     float timeScore;
     
 
@@ -18,7 +19,13 @@ public class GameController : MonoBehaviour
     bool muted;
     void Start()
     {
-       
+        collectableAmount = GameObject.FindGameObjectsWithTag("Collectable");
+
+        //REMINDER!! Remove Debug once game is passed debug stage
+        if(collectableAmount.Length == 0)
+        {
+            Debug.Log("No game objects found with tag Collectable");
+        }
     }
 
     void Update()
@@ -33,6 +40,8 @@ public class GameController : MonoBehaviour
         {
             generating = false;
         }
+
+
 
         totalScore = GameTime;
         Debug.Log(totalScore); //Delete at a later date!
