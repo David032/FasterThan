@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6636634203582509859}
   - component: {fileID: 6164542680746356483}
   - component: {fileID: 7970859073259702353}
+  - component: {fileID: 7823850140699235532}
   - component: {fileID: -1765563997337466475}
   - component: {fileID: 4978487983274765877}
   m_Layer: 0
@@ -65,6 +66,7 @@ MonoBehaviour:
   GameTime: 60
   totalScore: 0
   collectableCount: 0
+--- !u!114 &7823850140699235532
   collectableAmount: []
 --- !u!114 &-1765563997337466475
 MonoBehaviour:
@@ -75,9 +77,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6636634203582509860}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f78794557a3ba44818a4e4aadf3aae, type: 3}
   m_Script: {fileID: 11500000, guid: 6bffa908db9f29e49a7f15c54d0264cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ExitSpotA: {fileID: 0}
+  ExitSpotB: {fileID: 0}
 --- !u!114 &4978487983274765877
 MonoBehaviour:
   m_ObjectHideFlags: 0
