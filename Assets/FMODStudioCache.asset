@@ -32,6 +32,22 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &-8648790738545011242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Surface
+  Min: 0
+  Max: 5
+  Default: 0
 --- !u!114 &-8584167449237446137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,12 +229,12 @@ MonoBehaviour:
   Path: event:/Music
   guid: 24e15cd13e3b5946b7890a50fa962b88
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -669300448566851721}
+  - {fileID: 5714414955747879913}
   MinDistance: 0
   MaxDistance: 0
   Length: 101000
@@ -269,7 +285,7 @@ MonoBehaviour:
   Path: event:/game start
   guid: f62120cee9993140b8220d2993f8f61b
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -308,14 +324,14 @@ MonoBehaviour:
   Path: event:/Footsteps Main
   guid: d949a538b75bdc4aa52287fdb6a44078
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5220336845904336676}
-  - {fileID: -7659816105590826424}
-  - {fileID: 2643805335875540998}
+  - {fileID: 4464283544937170313}
+  - {fileID: 8275352895743100491}
+  - {fileID: -8648790738545011242}
   MinDistance: 0
   MaxDistance: 0
   Length: 28600
@@ -332,11 +348,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FasterThanAudio\Build\Desktop\Master Bank.strings.bank
-  lastModified: 637109954517282145
+  lastModified: 637109971628250607
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1326
+    Value: 1364
   Exists: 1
 --- !u!114 &-5716665441501183563
 MonoBehaviour:
@@ -401,7 +417,7 @@ MonoBehaviour:
   Path: event:/player breathing
   guid: 158bb8e1dad95343a06f438540c51cad
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -536,7 +552,7 @@ MonoBehaviour:
   Path: event:/buttons
   guid: 29fd16fdfaf1544aacd479bf95ea9e17
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -622,7 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -5890365310085622245}
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   EditorEvents:
   - {fileID: 5327094623644153924}
   - {fileID: -4372383567993805370}
@@ -639,9 +655,9 @@ MonoBehaviour:
   - {fileID: 3003772631425946982}
   - {fileID: -6029713767257605879}
   - {fileID: -6339911732826070699}
-  MasterBankRef: {fileID: -7304038588009197486}
+  MasterBankRef: {fileID: 5746290487108734221}
   StringsBankRef: {fileID: -5890365310085622245}
-  stringsBankWriteTime: 637109954517282145
+  stringsBankWriteTime: 637109971628250607
   cacheVersion: 2
 --- !u!114 &80060815798327627
 MonoBehaviour:
@@ -674,7 +690,7 @@ MonoBehaviour:
   Path: event:/Monster Contact
   guid: 599bd73511ad9746af18fdc719ad8126
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -745,7 +761,7 @@ MonoBehaviour:
   Path: event:/Monster Movement
   guid: 9b2b2cb66f376141a5206e2e594aaa01
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -768,7 +784,7 @@ MonoBehaviour:
   Path: event:/End Coridoor
   guid: 2cc3492f14f1e6429b16ff79ddbfaafe
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -855,7 +871,7 @@ MonoBehaviour:
   Path: event:/Torch
   guid: bf28c6342039d1499ac4cf7112865a19
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -879,6 +895,22 @@ MonoBehaviour:
   Min: 0
   Max: 65
   Default: 0
+--- !u!114 &4464283544937170313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Hollow
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &4470688290809605128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -894,7 +926,7 @@ MonoBehaviour:
   Path: event:/Footsteps Sneak
   guid: 47dbe65850a0f84a89ba0abea524c154
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -917,7 +949,7 @@ MonoBehaviour:
   Path: event:/Footsteps Hollow
   guid: 512fbde66925f4409dd37402a7c40cc9
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -956,7 +988,7 @@ MonoBehaviour:
   Path: event:/Monster Howls
   guid: 051d42f3ac8b9e41bc18298b0531b3d6
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -964,6 +996,41 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &5714414955747879913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Section
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &5746290487108734221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: D:\Projects\FasterThan\FasterThanAudio\Build\Desktop\Master Bank.bank
+  lastModified: 637109971629400887
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 5513792
+  Exists: 1
 --- !u!114 &5766856746253382111
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -979,7 +1046,7 @@ MonoBehaviour:
   Path: event:/Monster POV
   guid: 44656886c599f44e88fc246905906567
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1152,7 +1219,7 @@ MonoBehaviour:
   Path: event:/Horror Atmos
   guid: 99e153d65a9edf4f9e7225ff0a6cf315
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1160,6 +1227,22 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 15000
+--- !u!114 &8275352895743100491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Speed
+  Min: 0
+  Max: 2.99
+  Default: 0
 --- !u!114 &8549124558211271145
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1201,7 +1284,7 @@ MonoBehaviour:
   Path: event:/Footsteps Encumberment
   guid: 49ea2c4d23955c43bdf9b38933b13e5c
   Banks:
-  - {fileID: -7304038588009197486}
+  - {fileID: 5746290487108734221}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

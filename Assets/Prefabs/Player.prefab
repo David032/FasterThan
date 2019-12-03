@@ -220,9 +220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAcceleration: 7
-  playerSneakSpeed: 4
-  playerWalkSpeed: 6
-  playerRunSpeed: 10
+  playerSneakSpeed: 2
+  playerWalkSpeed: 3
+  playerRunSpeed: 5
   playerSprintDuration: 5
   canMove: 1
   enemy: {fileID: 0}
