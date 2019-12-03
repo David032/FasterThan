@@ -8,16 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_Menu.unity
     guid: 0787b8a8678858242b5a7dc2ae6005ed
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Scene_Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/YourScore.unity
     guid: 2c0a9ca2cec3ad047af530d9e5e37d64
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/InsertName.unity
     guid: 76c4a704c60fb994993793f3ec78a727
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/HighScore.unity
     guid: 922d5cc20acbbc34e8e247208513dcb4
   m_configObjects: {}
