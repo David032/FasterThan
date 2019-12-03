@@ -16,7 +16,6 @@ public class FadeInDeathScreen : MonoBehaviour
         var uiElement = GetComponent<CanvasGroup>();
         if(player.GetComponent<Player_Movement>().canMove == false)
         {
-            Debug.Log("Go");
             //StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 1));
             StartCoroutine(DoFade(uiElement, uiElement.alpha, 1));
         }

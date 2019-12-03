@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 {
+    bool done;
+    public CanvasGroup uiElement;
     // Start is called before the first frame update
     public void doRespawn()
     {
-        var uiElement = GetComponent<CanvasGroup>();
-        GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
-        StartCoroutine(DoFade(uiElement, uiElement.alpha, 1));
+        if(!done)
+        {
+            StartCoroutine(DoFade(uiElement, uiElement.alpha, 1));
+        Debug.Log("fade you died");
+        }
+        
 
     }
 
@@ -21,8 +26,9 @@ public class Respawn : MonoBehaviour
         while (counter < 1)
         {
             counter += Time.deltaTime;
-            canvGroup.alpha = Mathf.Lerp(start, end, counter / 1);
+            canvGroup.alpha = Mathf.Lerp(start, end, counter / 0.5f);
             yield return null;
         }
+        done = true;
     }
 }

@@ -107,6 +107,11 @@ public class Player_Movement : MonoBehaviour
         Vector3 currentRotation = playerBody.rotation.eulerAngles;
         Quaternion rot = Quaternion.LookRotation(enemy.transform.position - playerBody.transform.position);
         playerBody.rotation = Quaternion.Slerp(transform.rotation, rot, Time.deltaTime * 8);
+
+    
+
+
+
         //rotate = true;
         //if (rotate == true)
         //{
