@@ -5,7 +5,10 @@ using UnityEngine.UI;
 
 public class audioManagment : MonoBehaviour
 {
-    float MasterVolume = 1;
+
+    FMOD.Studio.Bus MasterBus;
+
+    float MasterVolume = 0.5f;
     float MusicVolume = 1;
     float EntityVolume = 1;
     float AmbianceVolume = 1;
@@ -17,24 +20,18 @@ public class audioManagment : MonoBehaviour
 
     private void Awake()
     {
+        MasterBus = FMODUnity.RuntimeManager.GetBus("bus:/Master");
+
         MasterSlider.value = MasterVolume;
         MusicSlider.value = MusicVolume;
         EntitySlider.value = EntityVolume;
         AmbianceSlider.value = AmbianceVolume;
+
+        MasterSlider.onValueChanged.AddListener(SetMasterVolume);
     }
 
-    private void Update()
+    void SetMasterVolume(float value)
     {
-        setValues();
-        print(MasterVolume + MusicVolume + EntityVolume + AmbianceVolume);
-        //Function to update the scaling of all audio should go here
-    }
-
-    void setValues() 
-    {
-        MasterVolume = MasterSlider.value;
-        MusicVolume = MusicSlider.value;
-        EntityVolume = EntitySlider.value;
-        AmbianceVolume = AmbianceSlider.value;
+        MasterBus.setVolume(value);
     }
 }
