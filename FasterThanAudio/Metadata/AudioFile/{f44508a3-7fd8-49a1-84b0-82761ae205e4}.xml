@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{f44508a3-7fd8-49a1-84b0-82761ae205e4}">
+        <property name="assetPath">
+            <value>Spirit of Medea.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>16.000166666666665</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{8a769b60-34e6-4452-bad6-a8cd33ed7e6e}</destination>
+        </relationship>
+    </object>
+</objects>

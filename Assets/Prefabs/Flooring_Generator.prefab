@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3556197555346251389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3556197555346251379}
+  - component: {fileID: 3556197555346251378}
+  m_Layer: 0
+  m_Name: Flooring_Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3556197555346251379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556197555346251389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3556197555346251378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556197555346251389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floorType: 0
+  tileX: 2
+  tileZ: 1
+  autoUpdate: 1
+  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
+    type: 3}
+  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
+    type: 3}
+  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
+    type: 3}
+  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
+    type: 3}
