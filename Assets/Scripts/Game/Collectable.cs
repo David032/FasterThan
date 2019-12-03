@@ -8,18 +8,18 @@ public class Collectable : MonoBehaviour
     float current_game_time;
 
 
-    //Uncomment lines 15 and 22 when ScoreSystem Branch is finally merged!!
+ 
     private void Start()
     {
         manager = GameObject.FindGameObjectWithTag("GameController");
-        //current_game_time = manager.GetComponent<GameController>().GameTime;
+        current_game_time = manager.GetComponent<GameController>().GameTime;
     }
     private void OnTriggerEnter(Collider other)
     {
         if(other.name == "Player")
         {
             Destroy(gameObject);
-            //manager.GetComponent<GameController>().GameTime = game_time + 15.0f;
+            manager.GetComponent<GameController>().GameTime = current_game_time + 15.0f;
          
         }
     }

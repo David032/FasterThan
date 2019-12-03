@@ -26,44 +26,17 @@ public class FootSteps : MonoBehaviour
     {
         WalkingParameter.setValue(WalkingValue);
 
-        if (Input.GetAxis("Vertical") >= 0.01f || Input.GetAxis("Horizontal") >= 0.01f || Input.GetAxis("Vertical") <= -0.01f || Input.GetAxis("Horizontal") <= -0.01f)
+        if (Input.GetAxis("Vertical") != 0.0f || Input.GetAxis("Horizontal") != 0.0f)
         {
-            if (playerisgrounded == true)
-            {
+
                 playerismoving = true;
-            }
-            else if (playerisgrounded == false)
-            {
-                WalkingValue = 0.50f;
-                playerismoving = false;
-            }
+            
         }
-        else if (Input.GetAxis("Vertical") == 0 || Input.GetAxis("Horizontal") == 0)
+        else
         {
             playerismoving = false;
         }
-    }
 
-    void CallFootsteps()
-    {
-        if (playerismoving == true)
-        {
-            FootstepsEvent.start();
-        }
-        else if (playerismoving == false)
-        {
-            //Debug.Log ("player is moving = false");
-        }
-    }
-
-    void OnDisable()
-    {
-        playerismoving = false;
-    }
-
-    void OnTriggerStay(Collider FloorTag)
-    {
-        playerisgrounded = true;
         Ray ray = new Ray(transform.position, Vector3.down);
         RaycastHit hitInfo;
         if (GetComponent<Collider>().Raycast(ray, out hitInfo, 100.0f))
@@ -87,11 +60,21 @@ public class FootSteps : MonoBehaviour
         {
             WalkingValue = 4.50f;
         }
-
     }
 
-    void OnTriggerExit(Collider FloorTag)
+    void CallFootsteps()
     {
-        playerisgrounded = false;
+        if (playerismoving == true)
+        {
+            FootstepsEvent.start();
+        }
     }
+
+    void OnDisable()
+    {
+        playerismoving = false;
+    }
+
+
+
 }

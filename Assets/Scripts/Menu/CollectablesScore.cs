@@ -39,7 +39,7 @@ public class CollectablesScore : MonoBehaviour
         Transform scoreTransform = Instantiate(scoreTemplate, container);
         scoreTransform.gameObject.SetActive(true);
 
-        int score = game.collectableAmount.Length;
+        int score = game.collectableAmount;
         scoreTransform.Find("AmountToCollectText").GetComponent<Text>().text = score.ToString();
     }
 }
