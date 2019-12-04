@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -197,15 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &20048093
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,18 +333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &26239051
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,15 +377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &31906956
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,18 +421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &32125163
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,15 +465,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 180
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &32862653
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,15 +601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &50552409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,15 +955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 64
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &61182703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,18 +999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &65569442
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,15 +1075,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -28
-  wallDistanceZ: 28
-  tileX: 4
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1001 &68468348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1278,18 +1188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &72956040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,15 +1416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &83928949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,15 +1460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &85488416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1624,18 +1504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &90520268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,15 +1823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &104016876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2133,18 +1992,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &112667515
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,18 +2128,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 13
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &117127431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,15 +2264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &120290464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,15 +2649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &133459847
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,18 +2785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 100
-  tileZ: 100
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &143913490
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,18 +3170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &157317599
 GameObject:
   m_ObjectHideFlags: 0
@@ -3421,18 +3214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &159554144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,15 +3374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &167560022
 GameObject:
   m_ObjectHideFlags: 0
@@ -3738,18 +3510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &177998627
 GameObject:
   m_ObjectHideFlags: 0
@@ -3831,15 +3591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &188059918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3884,18 +3635,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &188995900
 GameObject:
   m_ObjectHideFlags: 0
@@ -3940,15 +3679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &190557051
 GameObject:
   m_ObjectHideFlags: 0
@@ -4244,18 +3974,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &199189769
 GameObject:
   m_ObjectHideFlags: 0
@@ -4393,15 +4111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &202107884
 GameObject:
   m_ObjectHideFlags: 0
@@ -4537,15 +4246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &204911833
 GameObject:
   m_ObjectHideFlags: 0
@@ -4590,15 +4290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 0
-  tileX: 40
-  tileY: 4
-  tileZ: 60
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &207832755
 GameObject:
   m_ObjectHideFlags: 0
@@ -4988,15 +4679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &218470630
 GameObject:
   m_ObjectHideFlags: 0
@@ -5133,18 +4815,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 2
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &223590474
 GameObject:
   m_ObjectHideFlags: 0
@@ -5189,18 +4859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &224223355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5520,15 +5178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &237247122
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,15 +5314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &242711174
 GameObject:
   m_ObjectHideFlags: 0
@@ -5810,15 +5450,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 60
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &243280365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6080,15 +5711,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &249910825
 GameObject:
   m_ObjectHideFlags: 0
@@ -6777,18 +6399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &261077586
 GameObject:
   m_ObjectHideFlags: 0
@@ -7017,18 +6627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &274520134
 GameObject:
   m_ObjectHideFlags: 0
@@ -7166,15 +6764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 48
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 60
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &275733536
 GameObject:
   m_ObjectHideFlags: 0
@@ -7252,15 +6841,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &277596857
 GameObject:
   m_ObjectHideFlags: 0
@@ -7555,15 +7135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -48
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 64
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &284734210
 GameObject:
   m_ObjectHideFlags: 0
@@ -7640,15 +7211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &291178023
 GameObject:
   m_ObjectHideFlags: 0
@@ -7878,15 +7440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &296135201
 GameObject:
   m_ObjectHideFlags: 0
@@ -8023,15 +7576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &311937244
 GameObject:
   m_ObjectHideFlags: 0
@@ -8296,18 +7840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &328350147
 GameObject:
   m_ObjectHideFlags: 0
@@ -8352,15 +7884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &330538178
 GameObject:
   m_ObjectHideFlags: 0
@@ -8406,15 +7929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 60
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &338594895
 GameObject:
   m_ObjectHideFlags: 0
@@ -8459,18 +7973,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &338898406
 GameObject:
   m_ObjectHideFlags: 0
@@ -8761,18 +8263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &347730575
 GameObject:
   m_ObjectHideFlags: 0
@@ -8909,18 +8399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &354831780
 GameObject:
   m_ObjectHideFlags: 0
@@ -9150,15 +8628,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &364117264
 GameObject:
   m_ObjectHideFlags: 0
@@ -9480,15 +8949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &381252956
 GameObject:
   m_ObjectHideFlags: 0
@@ -9533,15 +8993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &397571432
 GameObject:
   m_ObjectHideFlags: 0
@@ -9710,15 +9161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 28
-  wallDistanceZ: -28
-  tileX: 4
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &411009161
 GameObject:
   m_ObjectHideFlags: 0
@@ -9855,18 +9297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &414792212
 GameObject:
   m_ObjectHideFlags: 0
@@ -10036,18 +9466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &422813778
 GameObject:
   m_ObjectHideFlags: 0
@@ -10617,15 +10035,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &440069869
 GameObject:
   m_ObjectHideFlags: 0
@@ -10854,15 +10263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &449927204
 GameObject:
   m_ObjectHideFlags: 0
@@ -10941,18 +10341,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &453379617
 GameObject:
   m_ObjectHideFlags: 0
@@ -11213,15 +10601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &458671142
 GameObject:
   m_ObjectHideFlags: 0
@@ -11358,15 +10737,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &464999091
 GameObject:
   m_ObjectHideFlags: 0
@@ -11535,15 +10905,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &474446445
 GameObject:
   m_ObjectHideFlags: 0
@@ -11680,18 +11041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &484128117
 GameObject:
   m_ObjectHideFlags: 0
@@ -11737,15 +11086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &488107535
 GameObject:
   m_ObjectHideFlags: 0
@@ -11882,18 +11222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &500369191
 GameObject:
   m_ObjectHideFlags: 0
@@ -12064,15 +11392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &510268651
 GameObject:
   m_ObjectHideFlags: 0
@@ -12150,15 +11469,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &515058430
 GameObject:
   m_ObjectHideFlags: 0
@@ -12203,18 +11513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 3
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &517452680
 GameObject:
   m_ObjectHideFlags: 0
@@ -12704,15 +12002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 48
-  wallDistanceZ: -26
-  tileX: 4
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &540393561
 GameObject:
   m_ObjectHideFlags: 0
@@ -12849,15 +12138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &549073452
 GameObject:
   m_ObjectHideFlags: 0
@@ -13257,15 +12537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 60
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &561508496
 GameObject:
   m_ObjectHideFlags: 0
@@ -13476,18 +12747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &566733823
 GameObject:
   m_ObjectHideFlags: 0
@@ -13565,15 +12824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &569584281
 GameObject:
   m_ObjectHideFlags: 0
@@ -13618,15 +12868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 48
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 60
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &570061226
 GameObject:
   m_ObjectHideFlags: 0
@@ -13763,18 +13004,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &581160606
 GameObject:
   m_ObjectHideFlags: 0
@@ -13820,15 +13049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 40
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &583575368
 GameObject:
   m_ObjectHideFlags: 0
@@ -14031,18 +13251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &594359297
 GameObject:
   m_ObjectHideFlags: 0
@@ -14305,15 +13513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -48
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &611721322
 GameObject:
   m_ObjectHideFlags: 0
@@ -14565,15 +13764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &614711716
 GameObject:
   m_ObjectHideFlags: 0
@@ -14618,15 +13808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &616433984
 GameObject:
   m_ObjectHideFlags: 0
@@ -14672,15 +13853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &617883825
 GameObject:
   m_ObjectHideFlags: 0
@@ -14817,18 +13989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &628460535
 GameObject:
   m_ObjectHideFlags: 0
@@ -14904,15 +14064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &629791010
 GameObject:
   m_ObjectHideFlags: 0
@@ -15049,15 +14200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &631830170
 GameObject:
   m_ObjectHideFlags: 0
@@ -15286,15 +14428,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 28
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 60
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &638846250
 GameObject:
   m_ObjectHideFlags: 0
@@ -15339,15 +14472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &640376799
 GameObject:
   m_ObjectHideFlags: 0
@@ -15392,15 +14516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &643389469
 GameObject:
   m_ObjectHideFlags: 0
@@ -15445,15 +14560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 64
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &647637953
 GameObject:
   m_ObjectHideFlags: 0
@@ -15682,18 +14788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &663724133
 GameObject:
   m_ObjectHideFlags: 0
@@ -15830,18 +14924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &689551065
 GameObject:
   m_ObjectHideFlags: 0
@@ -15886,18 +14968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &690547175
 GameObject:
   m_ObjectHideFlags: 0
@@ -16218,15 +15288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 8
-  tileX: 100
-  tileY: 4
-  tileZ: 16
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &700130441
 GameObject:
   m_ObjectHideFlags: 0
@@ -16363,18 +15424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &704008184
 GameObject:
   m_ObjectHideFlags: 0
@@ -16419,15 +15468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &704666975
 GameObject:
   m_ObjectHideFlags: 0
@@ -16472,18 +15512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &708843866
 GameObject:
   m_ObjectHideFlags: 0
@@ -16712,15 +15740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &717154395
 GameObject:
   m_ObjectHideFlags: 0
@@ -16982,18 +16001,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &725597784
 GameObject:
   m_ObjectHideFlags: 0
@@ -17038,15 +16045,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 25
-  wallDistanceZ: 8
-  tileX: 50
-  tileY: 4
-  tileZ: 16
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &728523231
 GameObject:
   m_ObjectHideFlags: 0
@@ -17367,18 +16365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 3
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &734401852
 GameObject:
   m_ObjectHideFlags: 0
@@ -17423,15 +16409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &735690936
 GameObject:
   m_ObjectHideFlags: 0
@@ -17476,15 +16453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 140
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &736219842
 GameObject:
   m_ObjectHideFlags: 0
@@ -17562,15 +16530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &737839925
 GameObject:
   m_ObjectHideFlags: 0
@@ -18214,15 +17173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &752967743
 GameObject:
   m_ObjectHideFlags: 0
@@ -18267,18 +17217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &761826726
 GameObject:
   m_ObjectHideFlags: 0
@@ -18356,15 +17294,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &766074189
 GameObject:
   m_ObjectHideFlags: 0
@@ -18409,15 +17338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &766172992
 GameObject:
   m_ObjectHideFlags: 0
@@ -18462,18 +17382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &771402599
 GameObject:
   m_ObjectHideFlags: 0
@@ -18735,18 +17643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &781975193
 GameObject:
   m_ObjectHideFlags: 0
@@ -18895,15 +17791,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &791084247
 GameObject:
   m_ObjectHideFlags: 0
@@ -18948,15 +17835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &794823398
 GameObject:
   m_ObjectHideFlags: 0
@@ -19034,15 +17912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &800043224
 GameObject:
   m_ObjectHideFlags: 0
@@ -19179,15 +18048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &806263853
 GameObject:
   m_ObjectHideFlags: 0
@@ -19232,15 +18092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &806766451
 GameObject:
   m_ObjectHideFlags: 0
@@ -19561,18 +18412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &814787035
 GameObject:
   m_ObjectHideFlags: 0
@@ -19617,15 +18456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &818479906
 GameObject:
   m_ObjectHideFlags: 0
@@ -19762,18 +18592,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &819902442
 GameObject:
   m_ObjectHideFlags: 0
@@ -19818,15 +18636,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &819988040
 GameObject:
   m_ObjectHideFlags: 0
@@ -19871,18 +18680,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &824176870
 GameObject:
   m_ObjectHideFlags: 0
@@ -20019,18 +18816,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &825517034
 GameObject:
   m_ObjectHideFlags: 0
@@ -20075,15 +18860,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!4 &825969486 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 818341475225252679, guid: 7c2be6059b0bb0146a55a9ce37ba4912,
@@ -20134,18 +18910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &831231163
 GameObject:
   m_ObjectHideFlags: 0
@@ -20190,18 +18954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &831630734
 GameObject:
   m_ObjectHideFlags: 0
@@ -20614,18 +19366,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &852119588
 GameObject:
   m_ObjectHideFlags: 0
@@ -20702,15 +19442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -48
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 60
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &858718927
 GameObject:
   m_ObjectHideFlags: 0
@@ -20754,15 +19485,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 180
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &859126346
 GameObject:
   m_ObjectHideFlags: 0
@@ -21055,15 +19777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &868519111
 GameObject:
   m_ObjectHideFlags: 0
@@ -21200,15 +19913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &875808534
 GameObject:
   m_ObjectHideFlags: 0
@@ -21253,18 +19957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &876100483
 GameObject:
   m_ObjectHideFlags: 0
@@ -21343,15 +20035,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 8
-  tileX: 100
-  tileY: 4
-  tileZ: 16
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &877616356
 GameObject:
   m_ObjectHideFlags: 0
@@ -21703,18 +20386,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &887516699
 GameObject:
   m_ObjectHideFlags: 0
@@ -21810,18 +20481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 3
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &892517136
 GameObject:
   m_ObjectHideFlags: 0
@@ -21866,15 +20525,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &894370785
 GameObject:
   m_ObjectHideFlags: 0
@@ -22136,18 +20786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &901989634
 GameObject:
   m_ObjectHideFlags: 0
@@ -22283,15 +20921,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &905801849
 GameObject:
   m_ObjectHideFlags: 0
@@ -22336,15 +20965,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &906185455
 GameObject:
   m_ObjectHideFlags: 0
@@ -22880,6 +21500,16 @@ PrefabInstance:
       propertyPath: spawn2
       value: 
       objectReference: {fileID: 316659881}
+    - target: {fileID: 7506874395008997649, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6229348636247210074, guid: 63733cc313187484e901335cbab88642,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63733cc313187484e901335cbab88642, type: 3}
 --- !u!1 &938894960
@@ -22925,15 +21555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &939999375
 GameObject:
   m_ObjectHideFlags: 0
@@ -23378,15 +21999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &950678851
 GameObject:
   m_ObjectHideFlags: 0
@@ -23782,15 +22394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &961139763
 GameObject:
   m_ObjectHideFlags: 0
@@ -23927,18 +22530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &963404768
 GameObject:
   m_ObjectHideFlags: 0
@@ -23983,18 +22574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 3
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &963836472
 GameObject:
   m_ObjectHideFlags: 0
@@ -24349,15 +22928,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &974550633
 GameObject:
   m_ObjectHideFlags: 0
@@ -24402,18 +22972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 9
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &976117232
 GameObject:
   m_ObjectHideFlags: 0
@@ -24458,15 +23016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &976237922
 GameObject:
   m_ObjectHideFlags: 0
@@ -24544,18 +23093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1001 &984520393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24675,18 +23212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &988685496
 GameObject:
   m_ObjectHideFlags: 0
@@ -24732,15 +23257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &989489377
 GameObject:
   m_ObjectHideFlags: 0
@@ -25232,15 +23748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 64
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1013991933
 GameObject:
   m_ObjectHideFlags: 0
@@ -25286,15 +23793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1019789579
 GameObject:
   m_ObjectHideFlags: 0
@@ -25373,15 +23871,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1020202919
 GameObject:
   m_ObjectHideFlags: 0
@@ -25458,15 +23947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1021855125
 GameObject:
   m_ObjectHideFlags: 0
@@ -25511,15 +23991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1001 &1023348697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25725,18 +24196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1033860029
 GameObject:
   m_ObjectHideFlags: 0
@@ -25781,15 +24240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1035137874
 GameObject:
   m_ObjectHideFlags: 0
@@ -25958,18 +24408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1049291060
 GameObject:
   m_ObjectHideFlags: 0
@@ -26232,15 +24670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1064348067
 GameObject:
   m_ObjectHideFlags: 0
@@ -26903,18 +25332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1084880981
 GameObject:
   m_ObjectHideFlags: 0
@@ -27143,18 +25560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 3
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1091979066
 GameObject:
   m_ObjectHideFlags: 0
@@ -27325,15 +25730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: -28
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 144
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1097339306
 GameObject:
   m_ObjectHideFlags: 0
@@ -27470,15 +25866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1107840571
 GameObject:
   m_ObjectHideFlags: 0
@@ -27523,18 +25910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1112081081 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3640132525389190517, guid: 8b5569440bdf9cb48b1c25b6aa6af809,
@@ -27626,15 +26001,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1120340275
 GameObject:
   m_ObjectHideFlags: 0
@@ -27771,15 +26137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -28
-  tileX: 60
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1132339203
 GameObject:
   m_ObjectHideFlags: 0
@@ -27916,15 +26273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1133165861
 GameObject:
   m_ObjectHideFlags: 0
@@ -28061,15 +26409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 128
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!4 &1145184947 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 818341475225252679, guid: 7c2be6059b0bb0146a55a9ce37ba4912,
@@ -28304,15 +26643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1155118557
 GameObject:
   m_ObjectHideFlags: 0
@@ -28357,18 +26687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 3
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1155628917
 GameObject:
   m_ObjectHideFlags: 0
@@ -28597,18 +26915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1168589002
 GameObject:
   m_ObjectHideFlags: 0
@@ -28776,18 +27082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 4
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1178610459
 GameObject:
   m_ObjectHideFlags: 0
@@ -28924,15 +27218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1185408980
 GameObject:
   m_ObjectHideFlags: 0
@@ -29161,18 +27446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1194685518
 GameObject:
   m_ObjectHideFlags: 0
@@ -29249,18 +27522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1200964851
 GameObject:
   m_ObjectHideFlags: 0
@@ -29305,15 +27566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1204217286
 GameObject:
   m_ObjectHideFlags: 0
@@ -29390,15 +27642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1213454441
 GameObject:
   m_ObjectHideFlags: 0
@@ -29991,15 +28234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1251155356
 GameObject:
   m_ObjectHideFlags: 0
@@ -30720,18 +28954,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1280282729
 GameObject:
   m_ObjectHideFlags: 0
@@ -30776,15 +28998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1283557253
 GameObject:
   m_ObjectHideFlags: 0
@@ -30829,15 +29042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 28
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1286461185
 GameObject:
   m_ObjectHideFlags: 0
@@ -31358,15 +29562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1318652178
 GameObject:
   m_ObjectHideFlags: 0
@@ -31412,15 +29607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1326849310
 GameObject:
   m_ObjectHideFlags: 0
@@ -31589,18 +29775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1346631165
 GameObject:
   m_ObjectHideFlags: 0
@@ -32045,15 +30219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 48
-  wallDistanceZ: 64
-  tileX: 4
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1369605900
 GameObject:
   m_ObjectHideFlags: 0
@@ -32190,15 +30355,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1373940770
 GameObject:
   m_ObjectHideFlags: 0
@@ -32243,18 +30399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1374197091
 GameObject:
   m_ObjectHideFlags: 0
@@ -32667,18 +30811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1393850690
 GameObject:
   m_ObjectHideFlags: 0
@@ -32913,18 +31045,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1406748476
 GameObject:
   m_ObjectHideFlags: 0
@@ -33369,15 +31489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1411815605
 GameObject:
   m_ObjectHideFlags: 0
@@ -33671,15 +31782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1415770415
 GameObject:
   m_ObjectHideFlags: 0
@@ -33724,18 +31826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1416441042
 GameObject:
   m_ObjectHideFlags: 0
@@ -33813,18 +31903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1417379288
 GameObject:
   m_ObjectHideFlags: 0
@@ -34086,15 +32164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -84
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1436937183
 GameObject:
   m_ObjectHideFlags: 0
@@ -34139,15 +32208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1437990077
 GameObject:
   m_ObjectHideFlags: 0
@@ -34807,18 +32867,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 4
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1460111642
 GameObject:
   m_ObjectHideFlags: 0
@@ -34863,15 +32911,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!4 &1461199472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 818341475225252679, guid: 7c2be6059b0bb0146a55a9ce37ba4912,
@@ -34922,15 +32961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1461786608
 GameObject:
   m_ObjectHideFlags: 0
@@ -34976,15 +33006,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -48
-  tileX: 140
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1468940568
 GameObject:
   m_ObjectHideFlags: 0
@@ -35121,15 +33142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -84
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1472894958
 GameObject:
   m_ObjectHideFlags: 0
@@ -35299,15 +33311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1476876567
 GameObject:
   m_ObjectHideFlags: 0
@@ -35535,18 +33538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1001 &1493876933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35734,15 +33725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1001 &1501404769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35953,15 +33935,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1508508304
 GameObject:
   m_ObjectHideFlags: 0
@@ -36099,15 +34072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: -48
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 144
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1512786530
 GameObject:
   m_ObjectHideFlags: 0
@@ -36401,18 +34365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1547769309
 GameObject:
   m_ObjectHideFlags: 0
@@ -36457,15 +34409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1553324734
 GameObject:
   m_ObjectHideFlags: 0
@@ -36510,18 +34453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1558136047
 GameObject:
   m_ObjectHideFlags: 0
@@ -36566,18 +34497,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1558812009
 GameObject:
   m_ObjectHideFlags: 0
@@ -36655,15 +34574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1565744858
 GameObject:
   m_ObjectHideFlags: 0
@@ -36832,15 +34742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1572944623
 GameObject:
   m_ObjectHideFlags: 0
@@ -37191,18 +35092,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 3
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1582172845
 GameObject:
   m_ObjectHideFlags: 0
@@ -37248,15 +35137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1583038338
 GameObject:
   m_ObjectHideFlags: 0
@@ -37301,15 +35181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 28
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 60
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1584705963
 GameObject:
   m_ObjectHideFlags: 0
@@ -37354,15 +35225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!4 &1585674278 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8227071364613123328, guid: d83bf409d649cc34283ea6ffe2dad284,
@@ -37413,18 +35275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 7
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1589696402
 GameObject:
   m_ObjectHideFlags: 0
@@ -37469,15 +35319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1591023696
 GameObject:
   m_ObjectHideFlags: 0
@@ -37613,15 +35454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1595642462
 GameObject:
   m_ObjectHideFlags: 0
@@ -37850,15 +35682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1608301567
 GameObject:
   m_ObjectHideFlags: 0
@@ -37903,18 +35726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1608834700
 GameObject:
   m_ObjectHideFlags: 0
@@ -37959,18 +35770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1614948837
 GameObject:
   m_ObjectHideFlags: 0
@@ -38199,15 +35998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -28
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 60
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1616963353
 GameObject:
   m_ObjectHideFlags: 0
@@ -38441,15 +36231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -48
-  wallDistanceZ: 64
-  tileX: 4
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1624739425
 GameObject:
   m_ObjectHideFlags: 0
@@ -39297,18 +37078,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1660801196
 GameObject:
   m_ObjectHideFlags: 0
@@ -39354,15 +37123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 64
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1663547767
 GameObject:
   m_ObjectHideFlags: 0
@@ -39666,18 +37426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1678110758
 GameObject:
   m_ObjectHideFlags: 0
@@ -39722,15 +37470,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -48
-  tileX: 100
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1682454499
 GameObject:
   m_ObjectHideFlags: 0
@@ -39907,15 +37646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1690720722
 GameObject:
   m_ObjectHideFlags: 0
@@ -39960,18 +37690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1692361215
 GameObject:
   m_ObjectHideFlags: 0
@@ -40183,15 +37901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1693162635
 GameObject:
   m_ObjectHideFlags: 0
@@ -40328,18 +38037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1703276008
 GameObject:
   m_ObjectHideFlags: 0
@@ -40752,18 +38449,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1725979699
 GameObject:
   m_ObjectHideFlags: 0
@@ -41084,15 +38769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1738657509
 GameObject:
   m_ObjectHideFlags: 0
@@ -41396,15 +39072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1747395324
 GameObject:
   m_ObjectHideFlags: 0
@@ -41541,18 +39208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 7
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1749103148
 GameObject:
   m_ObjectHideFlags: 0
@@ -41597,15 +39252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1001 &1750167451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42008,18 +39654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1765417560
 GameObject:
   m_ObjectHideFlags: 0
@@ -42064,18 +39698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1767155481
 GameObject:
   m_ObjectHideFlags: 0
@@ -42396,18 +40018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1775582879
 GameObject:
   m_ObjectHideFlags: 0
@@ -42452,15 +40062,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1776142469
 GameObject:
   m_ObjectHideFlags: 0
@@ -42698,15 +40299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1788251840
 GameObject:
   m_ObjectHideFlags: 0
@@ -42935,15 +40527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1793420938
 GameObject:
   m_ObjectHideFlags: 0
@@ -42989,15 +40572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1794169051
 GameObject:
   m_ObjectHideFlags: 0
@@ -43042,18 +40616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1794309164
 GameObject:
   m_ObjectHideFlags: 0
@@ -43098,15 +40660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1794480341
 GameObject:
   m_ObjectHideFlags: 0
@@ -43152,15 +40705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1796979993
 GameObject:
   m_ObjectHideFlags: 0
@@ -43239,15 +40783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1798976359
 GameObject:
   m_ObjectHideFlags: 0
@@ -43418,15 +40953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1801529309
 GameObject:
   m_ObjectHideFlags: 0
@@ -43503,18 +41029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1803829281
 GameObject:
   m_ObjectHideFlags: 0
@@ -43592,15 +41106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 60
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1805876458
 GameObject:
   m_ObjectHideFlags: 0
@@ -43645,15 +41150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1806006461
 GameObject:
   m_ObjectHideFlags: 0
@@ -43698,15 +41194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1807069272
 GameObject:
   m_ObjectHideFlags: 0
@@ -43751,15 +41238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1808564855
 GameObject:
   m_ObjectHideFlags: 0
@@ -44172,18 +41650,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1822879305
 GameObject:
   m_ObjectHideFlags: 0
@@ -44336,15 +41802,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1837661863
 GameObject:
   m_ObjectHideFlags: 0
@@ -44389,18 +41846,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 3
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1841130844
 GameObject:
   m_ObjectHideFlags: 0
@@ -44630,15 +42075,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: -48
-  wallDistanceZ: 0
-  tileX: 4
-  tileY: 4
-  tileZ: 144
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1858426078
 GameObject:
   m_ObjectHideFlags: 0
@@ -44716,15 +42152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1860173102
 GameObject:
   m_ObjectHideFlags: 0
@@ -45048,6 +42475,99 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870970367}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1876682290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876682294}
+  - component: {fileID: 1876682293}
+  - component: {fileID: 1876682292}
+  - component: {fileID: 1876682291}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1876682291
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876682290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1876682292
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876682290}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1876682293
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876682290}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1876682294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876682290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.4807646, y: 3.7, z: 31.88372}
+  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1877937271
 GameObject:
   m_ObjectHideFlags: 0
@@ -45092,18 +42612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1878235733
 GameObject:
   m_ObjectHideFlags: 0
@@ -45640,18 +43148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1909924425
 GameObject:
   m_ObjectHideFlags: 0
@@ -45880,15 +43376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1911629599
 GameObject:
   m_ObjectHideFlags: 0
@@ -46056,18 +43543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1930842919
 GameObject:
   m_ObjectHideFlags: 0
@@ -46314,15 +43789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 2
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1957505772
 GameObject:
   m_ObjectHideFlags: 0
@@ -46617,15 +44083,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1968620850
 GameObject:
   m_ObjectHideFlags: 0
@@ -46670,15 +44127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &1980029257
 GameObject:
   m_ObjectHideFlags: 0
@@ -46723,18 +44171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1981503000
 GameObject:
   m_ObjectHideFlags: 0
@@ -46963,18 +44399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1999694967
 GameObject:
   m_ObjectHideFlags: 0
@@ -47019,15 +44443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -48
-  wallDistanceZ: -28
-  tileX: 4
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2000345193
 GameObject:
   m_ObjectHideFlags: 0
@@ -47164,15 +44579,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2004067206
 GameObject:
   m_ObjectHideFlags: 0
@@ -47314,18 +44720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &2029723006
 GameObject:
   m_ObjectHideFlags: 0
@@ -47403,15 +44797,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2035647081
 GameObject:
   m_ObjectHideFlags: 0
@@ -47640,15 +45025,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2039252177
 GameObject:
   m_ObjectHideFlags: 0
@@ -47785,15 +45161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2041090878
 GameObject:
   m_ObjectHideFlags: 0
@@ -48114,18 +45481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!4 &2050991418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 818341475225252679, guid: 7c2be6059b0bb0146a55a9ce37ba4912,
@@ -48176,15 +45531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: -44
-  tileX: 12
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2052865755
 GameObject:
   m_ObjectHideFlags: 0
@@ -48229,15 +45575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -64
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 100
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2056781732
 GameObject:
   m_ObjectHideFlags: 0
@@ -48541,15 +45878,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2062823885
 GameObject:
   m_ObjectHideFlags: 0
@@ -48778,15 +46106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: 44
-  tileX: 100
-  tileY: 4
-  tileZ: 12
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2067412490
 GameObject:
   m_ObjectHideFlags: 0
@@ -49229,15 +46548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: -44
-  wallDistanceZ: 0
-  tileX: 12
-  tileY: 4
-  tileZ: 140
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!1 &2101868494
 GameObject:
   m_ObjectHideFlags: 0
@@ -49374,18 +46684,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 3
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &2105818908
 GameObject:
   m_ObjectHideFlags: 0
@@ -49614,18 +46912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 2
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &2117953608
 GameObject:
   m_ObjectHideFlags: 0
@@ -49866,18 +47152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 5
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &2127032239
 GameObject:
   m_ObjectHideFlags: 0
@@ -50083,18 +47357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 1
-  tileX: 9
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &2144391680
 GameObject:
   m_ObjectHideFlags: 0
@@ -50216,18 +47478,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bff22395e0864d344a5b2e6464c7e82a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floorType: 0
-  tileX: 7
-  tileZ: 5
-  autoUpdate: 1
-  floorWood: {fileID: 8030182942904616122, guid: 067b09ec2724c414f85b76f6b216d107,
-    type: 3}
-  floorMetal: {fileID: 8367949431819005270, guid: c3f9e02f8cb820940a16a33386f80ed6,
-    type: 3}
-  floorGrass: {fileID: 7327268540318700443, guid: 4c15242e7d72d3349bdcb6a2406246d8,
-    type: 3}
-  floorStone: {fileID: 9174992894223110733, guid: a9f1f5080f1b96d4b9f3dca7e2eb0f5b,
-    type: 3}
 --- !u!1 &1441720140759649614
 GameObject:
   m_ObjectHideFlags: 0
@@ -50256,15 +47506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25a79bc62c932cc4482253b78d884071, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallNumber: 1
-  wallDistanceX: 0
-  wallDistanceZ: -48
-  tileX: 140
-  tileY: 4
-  tileZ: 4
-  autoUpdate: 1
-  wallEnabled: 0
-  Wall: {fileID: 8287734256645593433, guid: 8c05e22d9e8041a4095e6c7960ef5cff, type: 3}
 --- !u!4 &2898407897196245420
 Transform:
   m_ObjectHideFlags: 0
