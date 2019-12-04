@@ -63,7 +63,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e3324550c0f17449745b2190155f8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameTime: 60
+  GameTime: 180
   totalScore: 0
   collectableCount: 0
   collectableAmount: 0
